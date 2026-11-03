@@ -22,6 +22,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [decisioni/](decisioni/) | registro decisioni |
 | [STATO.md](STATO.md) | copertura dei dati, ultimo aggiornamento, documenti attesi |
 | [PUNTI_APERTI.md](PUNTI_APERTI.md) | domande e verifiche in sospeso |
+| [DA_SISTEMARE.md](DA_SISTEMARE.md) | errori, cose mancanti e azioni da fare, con priorità e responsabile |
 | [CLAUDE.md](CLAUDE.md) | istruzioni operative per le sessioni di Claude |
 | [fonti.md](fonti.md) | documenti del Drive da cui viene ogni dato |
 | [fonti_drive.csv](fonti_drive.csv) | ID, titolo e cartella attesi di ogni fonte Drive, per il controllo dei percorsi |

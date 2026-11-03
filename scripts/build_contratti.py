@@ -164,7 +164,7 @@ def main():
         if r["noshow_ora"]:
             prezzo.append(f"- Ora prenotata e non usata: € {r['noshow_ora']} + IVA")
         if r["fascia_fissa"]:
-            prezzo.append(f"- Uso incluso: 1 mezza giornata **al mese** (testo letterale), {r['fascia_fissa']}")
+            prezzo.append(f"- Uso incluso: 1 mezza giornata **a settimana** (confermato da Manuel Riani il 2026-11-03; il testo firmato dice per errore «al mese»), {r['fascia_fissa']}")
         if r["stanza"]:
             prezzo.append(f"- Stanza: n. {r['stanza']}")
         testo = f"""# {r['id']} – {r['codice']}

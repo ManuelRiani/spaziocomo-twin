@@ -94,5 +94,5 @@ Firma del Concedente e dell'Utilizzatore; approvazione specifica (art. 1341 c.c.
 
 ## Da notare
 
-- Il testo firmato dice "n. 1 mezza giornata **al mese**". **[dedotto]** Con € 195 al mese sarebbero circa € 40–50 l'ora, contro € 10,66–14,75 dello spot: è più probabile che si intenda **una mezza giornata a settimana**. Va chiarito con le socie e, se è così, corretto nei prossimi contratti (vedi [PUNTI_APERTI.md](../../PUNTI_APERTI.md)).
+- Il testo firmato dice "n. 1 mezza giornata **al mese**", ma si intende **una mezza giornata a settimana** (confermato da Manuel Riani il 2026-11-03). Il conto torna: € 195 per circa 17–22 ore al mese = € 9–11 l'ora, in linea con lo spot di febbraio 2026. Il testo va corretto nei prossimi contratti (vedi [DA_SISTEMARE.md](../../DA_SISTEMARE.md)).
 - La stanza non è indicata: è "una stanza attrezzata", non una stanza fissa.

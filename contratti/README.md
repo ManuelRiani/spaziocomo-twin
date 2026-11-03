@@ -52,7 +52,7 @@ CLI-12                                                                [C22 spot 
 ## Incoerenze e lacune trovate
 
 1. **Socie senza rinnovo**: C01–C03 scadono il 01/08/2026, sono archiviati come "attivi" e non c'è un rinnovo scritto (art. 4.2 lo richiede).
-2. **"1 mezza giornata al mese"** nei fissi: **[dedotto]** probabilmente "a settimana" (vedi [modello](modelli/fisso-mezza-giornata.md#da-notare)).
+2. **"1 mezza giornata al mese"** nei fissi: è un errore del testo, si intende **una mezza giornata a settimana** (confermato da Manuel Riani il 2026-11-03). Va corretto nei rinnovi (vedi [modello](modelli/fisso-mezza-giornata.md#da-notare)).
 3. **C14**: "6 mesi" ma fine al 10/12/**2027**; rimando a un Allegato C inesistente.
 4. **Contratti spot senza fatture**: CLI-07, CLI-08, CLI-09, CLI-10 e CLI-11 hanno contratti da febbraio–marzo 2026, ma nei registri IVA fino a giugno 2026 non c'è nessuna fattura a loro nome. **[dedotto]** O non hanno usato le stanze, o le ore non sono state fatturate.
 5. **CLI-06**: la fattura di giugno (€ 64,17) non si ricostruisce con le tariffe del contratto C13 (€ 10,66 e € 5,74) con ore intere.

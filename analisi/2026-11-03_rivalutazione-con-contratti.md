@@ -6,7 +6,7 @@ Rilettura di tutte le analisi del repo dopo la trascrizione dei 22 contratti ([c
 
 1. **Il problema non è il prezzo ma le stanze vuote.** **Stima**: le 3 stanze per i terzi sono occupate dai contratti fissi per circa il **10%** delle mezze giornate. Coprire il buco mensile richiede 2–5 mezze giornate settimanali vendute in più su circa 27 libere.
 2. **Da settembre il ricavo sicuro scende**: con i contratti in vigore la base fissa è **€ 3.044/mese** (contro € 3.240 in apr–giu), perché CLI-03 è passato dal fisso allo spot. Il buco rispetto ai costi sale da circa € 680 a circa **€ 940/mese** (**stima**).
-3. **L'aumento di listino di settembre (+38%) tocca quasi solo lo spot**, che nel primo semestre ha fatturato € 146 in tutto. Il fisso resta a € 195: **[dedotto]** circa € 9–11 l'ora, sotto il nuovo spot da € 14,75.
+3. **L'aumento di listino di settembre (+38%) tocca quasi solo lo spot**, che nel primo semestre ha fatturato € 146 in tutto. Il fisso resta a € 195 per una mezza giornata a settimana (confermato): circa € 9–11 l'ora (**stima**, 4–5 ore), sotto il nuovo spot da € 14,75.
 4. **Possibili ricavi non fatturati**: 5 professionisti hanno un contratto da feb–mar 2026 e nessuna fattura fino a giugno, tra cui CLI-09 a € 25/h. È la prima cosa da controllare.
 5. **Il 76% dei ricavi non ha un contratto scritto valido** dal 01/08/2026 (contratti delle socie scaduti). Il rinnovo è il momento per fissare tariffe, orari e stanza 3, e per metterli a verbale.
 6. **Socie e terzi ora si possono confrontare** (**stima**): una socia paga meno di un terzo a mezza giornata se usa la stanza più di circa 4 mezze giornate a settimana. È il numero da portare al commercialista per il valore normale.
@@ -20,14 +20,14 @@ Rilettura di tutte le analisi del repo dopo la trascrizione dei 22 contratti ([c
 | Quadro iniziale – "prezzi o ore?" | domanda aperta | servono ore vendute, non prezzi più alti | **risposto** (**stima**) |
 | [Costi](../costi/struttura-costi.md) | | i contratti promettono pulizie, utenze, wi-fi, sito e social: i costi ricorrenti sono il costo del servizio | invariato |
 | [IVA](../fisco/iva.md) | 22% su tutte le vendite | i contratti dicono "prestazione di servizi": coerente con il 22% | **confermato** |
-| [Parti correlate](../fisco/parti-correlate.md) | ore incluse "da documentare" | socie: stanza propria senza limite di ore; terzi: 1 mezza giornata (al mese o a settimana) | **aggiornato** (sotto) |
+| [Parti correlate](../fisco/parti-correlate.md) | ore incluse "da documentare" | socie: stanza propria senza limite di ore; terzi: 1 mezza giornata a settimana (confermato) | **aggiornato** (sotto) |
 | [Immobile](../spazi/immobile.md) – sublocazione | "servizi o sublocazione?" | art. 2.1 dice servizi, ma le premesse parlano di "locazione di spazi" | **rischio più chiaro** (sotto) |
 | [Finanziamenti soci](../finanza/finanziamenti-soci.md) | rimborso 2028 improbabile | tradotto in occupazione necessaria: ≈ 65% | **aggiornato** (sotto) |
 | [Clienti](../offerta/clienti.md) | 9 clienti | 13 soggetti con contratto o fattura, 5 senza fatture | **aggiornato** in contratti/ |
 
 ## 1. Occupazione: quante stanze vendiamo davvero
 
-Ipotesi (**stima**): studio aperto 5 giorni, 2 mezze giornate al giorno (mattina fino alle 13, pomeriggio dalle 13, come scritto nei contratti); "1 mezza giornata" = una a settimana (vedi punto 3).
+Ipotesi (**stima**): studio aperto 5 giorni, 2 mezze giornate al giorno (mattina fino alle 13, pomeriggio dalle 13, come scritto nei contratti); "1 mezza giornata" = una a settimana (confermato da Manuel Riani il 2026-11-03).
 
 - Stanze 3, 4 e 5: delle socie (la 3 è condivisa con CLI-09).
 - Stanze 1, 2 e 6: per i terzi → **30 mezze giornate a settimana**.
@@ -63,14 +63,14 @@ Dall'01/10/2026 l'affitto può crescere per l'ISTAT (art. del contratto di locaz
 
 ## 3. "1 mezza giornata al mese" o a settimana
 
-Il conto conferma la deduzione già fatta in [modelli/fisso-mezza-giornata.md](../contratti/modelli/fisso-mezza-giornata.md):
+**Aggiornamento**: a settimana, confermato da Manuel Riani il 2026-11-03. Il conto lo confermava già in [modelli/fisso-mezza-giornata.md](../contratti/modelli/fisso-mezza-giornata.md):
 
 | Lettura | Ore al mese (mezza giornata di 4–5 h) | Prezzo orario implicito |
 |---|---|---|
 | al mese | 4–5 | **€ 39–49/h** (3–4 volte lo spot) |
 | a settimana | 17–22 | **€ 9–11/h** (in linea con lo spot di feb 2026, € 10,66) |
 
-**[dedotto]** Il canone è stato calcolato come una mezza giornata **a settimana**. Ma il contratto scritto dice "al mese": letto alla lettera, un cliente potrebbe pretendere ore extra a pagamento invece che comprese, o contestare il canone. Va corretto nei prossimi contratti.
+Il canone è calcolato su una mezza giornata **a settimana** (confermato). Ma il contratto scritto dice "al mese": letto alla lettera, un cliente potrebbe pretendere ore extra a pagamento invece che comprese, o contestare il canone. Va corretto nei prossimi contratti.
 
 Conseguenza: dopo il listino di settembre il fisso costa **€ 9–11/h contro € 14,75/h dello spot** (sconto 25–40%). Può essere voluto (premio fedeltà), ma va deciso, non subito. Portare il fisso a € 255 (≈ 17,3 h × € 14,75) varrebbe circa € 180/mese sui 3 fissi attuali (**stima**): meno di un solo cliente nuovo.
 

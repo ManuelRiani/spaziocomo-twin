@@ -79,7 +79,7 @@ Ogni volta che si chiede di aggiornare i dati, esegui **tutti** questi passi, ne
 5. **`python3 scripts/partita_doppia.py`**: rigenera la partita doppia di **ogni** anno in `contabilita/<anno>/`. Va sempre rieseguita, anche se l'aggiornamento riguarda un solo anno: i saldi patrimoniali passano da un anno all'altro.
 6. Se un controllo fallisce (lo script esce con codice 1), **non committare**: trova la causa e correggi i dati.
    Se i controlli sono OK: **`python3 scripts/grafici.py`** rigenera tutti i grafici in `grafici/` (struttura societaria, panoramica, una pagina per anno). Va rieseguito a ogni aggiornamento, dopo la partita doppia. Richiede `matplotlib` e Graphviz (`dot`); se un nuovo grafico usa una deduzione o una stima, il titolo o la nota lo devono dire.
-7. Aggiorna `STATO.md`, le analisi interessate e `PUNTI_APERTI.md` (chiudi le domande risolte, aggiungi le nuove).
+7. Aggiorna `STATO.md`, le analisi interessate, `PUNTI_APERTI.md` (chiudi le domande risolte, aggiungi le nuove) e `DA_SISTEMARE.md` (togli le voci risolte, aggiungi errori e mancanze nuove).
 8. Controllo privacy: leggi la colonna `nome` del Google Sheet dei codici e verifica con `grep -ri` che nessun nome di `CLI-` o `FOR-` compaia nei file del repo. Controlla anche a vista i nomi di fornitori e controparti nuovi trascritti in `build_dati.py`. Poi commit con un messaggio che dica quali documenti sono stati trascritti, e push.
 
 Nella partita doppia ogni movimento ha un campo `evidenza` (`documento`, `dedotto`, `stima`, `aggregato`). Quando arrivano documenti che confermano un movimento dedotto (per esempio gli estratti conto per incassi, pagamenti e versamenti dei soci), sostituisci la scrittura dedotta con quella documentata in `scripts/partita_doppia.py`.

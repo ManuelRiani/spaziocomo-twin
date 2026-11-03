@@ -19,4 +19,4 @@ Clausole comuni: recesso con 3 mesi di preavviso (1 mese per la formula speciale
 - **Da marzo 2026**: CLI-01…04 passano al **fisso** (contratti dal 02/03/2026): fattura mensile di € 196,72 a marzo, poi € 195,00. CLI-02 ad aprile e maggio paga € 216,32 = € 195 + 2 ore extra a € 10,66.
 - **Socie**: importo mensile fisso dall'inizio (€ 655 + IVA nel 2025, € 819,67 + IVA = € 1.000 lordi dal 2026).
 
-Ancora da chiarire: il significato di "1 mezza giornata al mese" nei fissi e il rinnovo dei contratti delle socie, scaduti il 01/08/2026 (vedi [PUNTI_APERTI.md](../PUNTI_APERTI.md)).
+"1 mezza giornata al mese" nei fissi significa **a settimana** (confermato da Manuel Riani il 2026-11-03): il testo va corretto. Ancora da chiarire: il rinnovo dei contratti delle socie, scaduti il 01/08/2026 (vedi [PUNTI_APERTI.md](../PUNTI_APERTI.md)).

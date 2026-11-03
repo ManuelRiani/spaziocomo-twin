@@ -2,7 +2,6 @@
 
 ## Da chiedere alle socie
 
-- [ ] Contratti fissi a € 195: "1 mezza giornata **al mese**" o **a settimana**? Il testo dice al mese; **[dedotto]** è più plausibile a settimana (contratti C06–C09, C15–C17)
 - [ ] Contratti delle socie (C01–C03) **scaduti il 01/08/2026** senza rinnovo scritto: rinnovarli per iscritto (art. 4.2)?
 - [ ] C14 (CLI-09): fine "10.12.2027" con durata "6 mesi": quale data vale?
 - [ ] CLI-07, CLI-08, CLI-09, CLI-10, CLI-11 hanno contratti da feb–mar 2026 ma nessuna fattura fino a giugno: zero ore usate o ore non fatturate?
@@ -42,6 +41,8 @@
 - [ ] Stima IRES/IRAP 2026 (probabile perdita fiscale riportabile)
 
 ## Risolti
+
+- [x] Contratti fissi a € 195: "1 mezza giornata al mese" significa **a settimana** (confermato da Manuel Riani il 2026-11-03); il testo dei contratti va corretto → [DA_SISTEMARE.md](DA_SISTEMARE.md)
 
 - [x] Da fine marzo 2026 i terzi ricorrenti hanno una fattura mensile costante → è il **contratto fisso** a mezza giornata dal 02/03/2026 (contratti C06–C09, Drive "CONTRATTI SERVIZI", letti il 2026-11-03)
 - [x] Fac-simile dei contratti e tariffe spot → in [contratti/](contratti/README.md)
