@@ -15,6 +15,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [fisco/](fisco/) | IVA, parti correlate, scadenze |
 | [finanza/](finanza/) | finanziamenti soci, cassa |
 | [contabilita/](contabilita/) | partita doppia per anno: libro giornale, bilancio di verifica, SP e CE (generata da `scripts/partita_doppia.py`) |
+| [grafici/](grafici/) | struttura societaria e grafici economico-finanziari, una pagina per anno (generati da `scripts/grafici.py`) |
 | [dati/](dati/) | CSV trascritti dai documenti (vedi [dati/README.md](dati/README.md)) |
 | [analisi/](analisi/) | analisi datate |
 | [decisioni/](decisioni/) | registro decisioni |
@@ -39,4 +40,5 @@ Procedura completa in [CLAUDE.md](CLAUDE.md#aggiornamento-dei-dati-procedura-obb
 python3 scripts/build_dati.py      # CSV dai documenti trascritti
 python3 scripts/verifica.py        # quadratura con i registri IVA
 python3 scripts/partita_doppia.py  # partita doppia di ogni anno (sempre)
+python3 scripts/grafici.py         # grafici in grafici/ (matplotlib + Graphviz)
 ```

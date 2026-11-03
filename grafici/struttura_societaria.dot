@@ -1,0 +1,25 @@
+digraph G {
+rankdir=TB; nodesep=0.5; ranksep=0.8;
+node [fontname="Helvetica" fontsize=10 shape=box style="rounded,filled" fillcolor="#FFFFFF"];
+edge [fontname="Helvetica" fontsize=9];
+subgraph cluster_soci { label="Socie (professioniste in regime forfettario)"; fontname="Helvetica"; style="rounded,dashed"; color="#999999";
+"SOC-VG" [label="Valentina Giacosa\nmusicoterapista\nAmministratrice unica\ncliente: € 819,67/mese + IVA (2026)" fillcolor="#4C72B022" color="#4C72B0"];
+"SOC-EB" [label="Erica Bertoni\nlogopedista\ncliente: € 819,67/mese + IVA (2026)" fillcolor="#55A86822" color="#55A868"];
+"SOC-RM" [label="Roberta Mauri\npsicomotricista\ncliente: € 819,67/mese + IVA (2026)" fillcolor="#C44E5222" color="#C44E52"];
+}
+"SC" [label="SpazioComo S.r.l.\nCapitale € 5.000 · ATECO 68.20.02\nvia Paoli 3, Como" fillcolor="#455A64" fontcolor="white" fontsize=12 penwidth=0];
+"SOC-VG" -> "SC" [label="33,34%\n(€ 1.667)" color="#4C72B0" penwidth=2];
+"SOC-VG" -> "SC" [label="finanz. soci\n€ 19.200" style=dashed color="#C44E52"];
+"SOC-EB" -> "SC" [label="33,34%\n(€ 1.667)" color="#55A868" penwidth=2];
+"SOC-EB" -> "SC" [label="finanz. soci\n€ 19.200" style=dashed color="#C44E52"];
+"SOC-RM" -> "SC" [label="33,32%\n(€ 1.666)" color="#C44E52" penwidth=2];
+"SOC-RM" -> "SC" [label="finanz. soci\n€ 19.200" style=dashed color="#C44E52"];
+"LASER" [label="LA.SER S.r.l.\nlocatore (utilizzatore in leasing)" fillcolor="#FFF3E0"];
+"SC" -> "LASER" [label="locazione via Paoli 3\n€ 2.000/mese + IVA" dir=back];
+"TERZI" [label="Professionisti terzi\nCLI-01, CLI-02, CLI-03, CLI-04, CLI-05, CLI-06" fillcolor="#EEEEEE"];
+"SC" -> "TERZI" [label="spazi (coworking)"];
+"FIDO" [label="Commercialista\nFido (Accounting Hub /\nServizi Innovativi)" fillcolor="#EDE7F6"];
+"SC" -> "FIDO" [label="contabilità e dichiarazioni" style=dashed arrowhead=none];
+"NOTE" [shape=note fillcolor="#FFFDE7" fontsize=8 label="Finanziamenti soci deliberati: € 57.600\ninfruttiferi, rimborso entro 31/12/2028\nAssemblea: presidente R. Mauri, segretaria E. Bertoni\nOrgano di controllo: nessuno"];
+{rank=same; "LASER"; "TERZI"; "FIDO";}
+}

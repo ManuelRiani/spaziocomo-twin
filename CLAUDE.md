@@ -10,7 +10,7 @@ Prima di rispondere alla prima richiesta:
 
 1. Leggi [`STATO.md`](STATO.md): copertura dei dati, ultimo aggiornamento, documenti attesi.
 2. Leggi [`PUNTI_APERTI.md`](PUNTI_APERTI.md): domande in sospeso.
-3. Se la richiesta tocca dati o numeri, esegui `python3 scripts/verifica.py` e `python3 scripts/partita_doppia.py`: confermano che il repo è coerente. Usano solo la libreria standard di Python.
+3. Se la richiesta tocca dati o numeri, esegui `python3 scripts/verifica.py` e `python3 scripts/partita_doppia.py`: confermano che il repo è coerente. Usano solo la libreria standard di Python (`scripts/grafici.py` invece richiede `matplotlib` e Graphviz).
 4. Se la sessione ha il connettore Google Drive, esegui il **controllo dei percorsi Drive** (vedi sotto).
 5. Se la richiesta è "aggiorna", "ci sono novità", "riprendiamo" o simili, controlla se nel Drive ci sono documenti nuovi e segui la **procedura di aggiornamento**.
 
@@ -71,6 +71,7 @@ Ogni volta che si chiede di aggiornare i dati, esegui **tutti** questi passi, ne
 4. `python3 scripts/verifica.py`: aggiorna i totali attesi con quelli delle nuove liquidazioni o LIPE.
 5. **`python3 scripts/partita_doppia.py`**: rigenera la partita doppia di **ogni** anno in `contabilita/<anno>/`. Va sempre rieseguita, anche se l'aggiornamento riguarda un solo anno: i saldi patrimoniali passano da un anno all'altro.
 6. Se un controllo fallisce (lo script esce con codice 1), **non committare**: trova la causa e correggi i dati.
+   Se i controlli sono OK: **`python3 scripts/grafici.py`** rigenera tutti i grafici in `grafici/` (struttura societaria, panoramica, una pagina per anno). Va rieseguito a ogni aggiornamento, dopo la partita doppia. Richiede `matplotlib` e Graphviz (`dot`); se un nuovo grafico usa una deduzione o una stima, il titolo o la nota lo devono dire.
 7. Aggiorna `STATO.md`, le analisi interessate e `PUNTI_APERTI.md` (chiudi le domande risolte, aggiungi le nuove).
 8. Controllo privacy: leggi la colonna `nome` del Google Sheet dei codici e verifica con `grep -ri` che nessun nome di `CLI-` o `FOR-` compaia nei file del repo. Controlla anche a vista i nomi di fornitori e controparti nuovi trascritti in `build_dati.py`. Poi commit con un messaggio che dica quali documenti sono stati trascritti, e push.
 
@@ -81,6 +82,7 @@ Nella partita doppia ogni movimento ha un campo `evidenza` (`documento`, `dedott
 | Richiesta | Cosa fare |
 |---|---|
 | "Aggiorna i dati" / "ci sono novità?" | Procedura di aggiornamento completa |
+| "Fammi vedere i grafici" / nuovo grafico | `grafici/README.md` e `grafici/<anno>/README.md`; un grafico nuovo si aggiunge in `scripts/grafici.py`, non a mano |
 | "Come va la società?" | Leggi `contabilita/<anno>/README.md` e l'ultima analisi; rispondi con numeri citati, e date di copertura |
 | Domanda su IVA, scadenze, contratti | `fisco/`, `spazi/immobile.md`, `offerta/contratti.md`; per i dettagli torna al documento in `fonti.md` |
 | Simulazione (prezzi, nuovi clienti, costi) | Nuovo file in `analisi/`, con ipotesi esplicite e marcate **stima** |
@@ -89,4 +91,4 @@ Nella partita doppia ogni movimento ha un campo `evidenza` (`documento`, `dedott
 
 ## Mappa del repo
 
-Vedi [`README.md`](README.md). In breve: `societa/`, `spazi/`, `offerta/`, `costi/`, `fisco/`, `finanza/` descrivono la società; `dati/` contiene i CSV; `contabilita/` la partita doppia; `scripts/` genera e verifica; `analisi/` e `decisioni/` sono datati.
+Vedi [`README.md`](README.md). In breve: `societa/`, `spazi/`, `offerta/`, `costi/`, `fisco/`, `finanza/` descrivono la società; `dati/` contiene i CSV; `contabilita/` la partita doppia; `grafici/` i grafici generati; `scripts/` genera e verifica; `analisi/` e `decisioni/` sono datati.
