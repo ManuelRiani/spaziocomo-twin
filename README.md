@@ -2,7 +2,7 @@
 
 Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3): chi è, come guadagna, quanto spende, che vincoli fiscali e contrattuali ha. Serve a fare controllo di gestione, simulazioni e a preparare domande per il commercialista.
 
-> **Non** sostituisce la contabilità ufficiale né il commercialista (Fido / Accounting Hub). Le cifre sono trascritte dai documenti nel Drive condiviso; dove c'è una stima è scritto.
+> **Non** sostituisce la contabilità ufficiale né il commercialista (Fido / Accounting Hub). Le cifre sono trascritte dai documenti nel Drive condiviso; le deduzioni sono marcate **[dedotto]** e le stime **stima**.
 
 ## Mappa
 

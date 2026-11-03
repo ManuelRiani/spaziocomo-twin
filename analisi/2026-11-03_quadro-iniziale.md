@@ -5,10 +5,10 @@ Prima ricostruzione dai documenti nel Drive. Copre i ricavi fino a giugno 2026 (
 ## In sintesi
 
 1. **La società è vicina al pareggio operativo ma non copre l'investimento.** Nel primo semestre 2026 i ricavi (€ 19.365) coprono i costi di gestione, ma restano circa € 1.000 di perdita prima degli ammortamenti. Con gli ammortamenti dei lavori (stima € 580/mese) la perdita semestrale sale a circa € 4.500.
-2. **Il 76% dei ricavi viene dalle socie.** I 4 terzi ricorrenti sono fatturati circa € 195/mese ciascuno (tipo di contratto da verificare).
+2. **Il 76% dei ricavi viene dalle socie** (fatto, dai registri). I 4 terzi ricorrenti sono fatturati circa € 195/mese ciascuno (tipo di contratto da verificare).
 3. **Mancano circa € 680/mese di ricavi**, pari a 3–4 clienti in più al livello attuale dei terzi, per coprire anche gli ammortamenti.
-4. **I finanziamenti soci (€ 57.600) non sono rimborsabili entro il 2028** ai livelli attuali.
-5. **Il credito IVA si sta esaurendo**: dal 2027 la società verserà IVA ogni trimestre.
+4. **[dedotto]** **I finanziamenti soci (€ 57.600, importo deliberato) non sembrano rimborsabili entro il 2028** ai livelli attuali.
+5. **Il credito IVA si sta riducendo** (fatto: da € 2.139 a € 1.551 nel T2). **Stima**: dal 2027 la società verserà IVA ogni trimestre.
 
 ## Conto economico semestrale (gen–giu 2026, €)
 

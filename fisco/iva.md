@@ -20,8 +20,8 @@ Fonti: dichiarazione IVA 2026, liquidazioni T1 e T2, LIPE T2 (accettata il 01/09
 
 ## Lettura
 
-- Il credito nasce dall'IVA pagata sull'avvio (allestimento e consulenze) e si sta **riassorbendo**: nel T2 il debito ha superato il credito per € 587. Al ritmo attuale il credito si esaurisce entro circa due trimestri e poi la società **verserà IVA** ogni trimestre (stima: € 500–600 a trimestre).
-- Per i professionisti sanitari che svolgono attività esente (art. 10, n. 18), l'IVA al 22% sulla stanza non è detraibile ed è un costo pieno. Vale anche per le socie se la loro attività è esente: dei € 1.000 al mese che pagano, € 180 sono IVA che non recuperano. È un vincolo strutturale del modello "servizio", non un errore.
+- **[dedotto]** Il credito nasce dall'IVA pagata sull'avvio (allestimento e consulenze) e si sta **riassorbendo**: nel T2 il debito ha superato il credito per € 587. **Stima**, se il T3 è simile al T2: il credito si esaurisce entro circa due trimestri e poi la società **verserà IVA** ogni trimestre (€ 500–600).
+- Per i professionisti sanitari che svolgono attività esente (art. 10, n. 18), l'IVA al 22% sulla stanza non è detraibile ed è un costo pieno. Vale anche per le socie se la loro attività è esente: dei € 1.000 al mese che pagano, € 180 sono IVA che non recuperano. È un vincolo strutturale del modello "servizio", non un errore. **[dedotto]** Che i clienti svolgano attività esente non risulta dai documenti: dipende dalla loro professione.
 - Spunto da discutere con il commercialista: se una parte dei contratti fosse inquadrabile come locazione di immobile strumentale **senza** opzione IVA (esente), per i clienti esenti il costo scenderebbe, ma la società perderebbe in proporzione la detrazione (pro-rata) sull'IVA del canone e sugli altri costi. Il bilancio netto non è ovvio e va simulato prima di decidere qualunque cosa.
 
 ## Dati mancanti
