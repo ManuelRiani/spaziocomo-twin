@@ -12,9 +12,10 @@ Fonte: registri IVA vendite, nov 2025 – giu 2026 (`dati/ricavi_fatture.csv`).
 | CLI-03 | terzo | dic 2025 | importi variabili → fattura mensile ~€ 195 da fine mar 2026 |
 | CLI-04 | terzo | dic 2025 | importi variabili → fattura mensile ~€ 195 da fine mar 2026 |
 
-**Ipotesi, non verificata**: il cambio di andamento potrebbe essere il passaggio da spot a fisso, ma è compatibile anche con una fatturazione mensile a consuntivo di uso costante o con un nuovo listino. Si scioglie solo con i contratti (vedi [PUNTI_APERTI.md](../PUNTI_APERTI.md)).
 | CLI-05 | terzo | giu 2026 | una fattura (€ 81,97) |
 | CLI-06 | terzo | giu 2026 | una fattura (€ 64,17) |
+
+**Ipotesi, non verificata**: il cambio di andamento potrebbe essere il passaggio da spot a fisso, ma è compatibile anche con una fatturazione mensile a consuntivo di uso costante o con un nuovo listino. Si scioglie solo con i contratti (vedi [PUNTI_APERTI.md](../PUNTI_APERTI.md)).
 
 ## Concentrazione (gen–giu 2026)
 
