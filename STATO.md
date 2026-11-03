@@ -33,5 +33,6 @@
 
 | Data | Cosa |
 |---|---|
+| 2026-11-03 | Rivalutazione di tutte le analisi alla luce dei contratti ([analisi](analisi/2026-11-03_rivalutazione-con-contratti.md)); nessun dato nuovo |
 | 2026-11-03 | Accesso a "CONTRATTI SERVIZI", "Bilancio e verbali società" (lettura) e "spaziocomo-twin" (scrittura); contratti trascritti in `contratti/`, codici CLI-07…CLI-12 aggiunti al foglio codici |
 | 2026-11-03 | Prima costruzione: registri Q4 2025 – T2 2026, dichiarazione IVA 2026, foglio spese feb–nov 2026, visura, contratto di locazione, verbali dei finanziamenti soci |

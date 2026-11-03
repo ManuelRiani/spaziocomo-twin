@@ -8,7 +8,9 @@
 - [ ] CLI-07, CLI-08, CLI-09, CLI-10, CLI-11 hanno contratti da feb–mar 2026 ma nessuna fattura fino a giugno: zero ore usate o ore non fatturate?
 - [ ] CLI-03 senza contratto dal 02/09 al 29/10/2026: ha usato le stanze in quel periodo?
 - [ ] Stanza 3: come convivono la socia SOC-VG e l'esclusiva di categoria di CLI-09 (fasce orarie)?
-- [ ] Come si controllano le ore dichiarate dagli spot (esiste un calendario delle prenotazioni)?
+- [ ] Come si controllano le ore dichiarate dagli spot (esiste un calendario delle prenotazioni)? Proposta: un calendario condiviso per stanza
+- [ ] Quante mezze giornate a settimana usa ciascuna socia (per il confronto con i terzi e il valore normale)
+- [ ] Il fisso resta a € 195 (≈ € 9–11/h) dopo il nuovo listino spot a € 14,75: scelta voluta?
 - [ ] Fasce orarie occupate stanza per stanza (le stanze 1, 2 e 6 non sono assegnate nei contratti)
 - [ ] Orari di apertura dello studio (per calcolare la capacità)
 - [ ] **Consenso scritto di LA.SER** alla concessione delle stanze a terzi (art. 6 del contratto di locazione)
@@ -35,6 +37,8 @@
 - [ ] Scadenza 2028 dei finanziamenti soci: proroga, rinuncia o conversione in riserva
 - [ ] Documentazione del valore normale delle tariffe applicate alle socie
 - [ ] Inquadramento IVA dei contratti (servizio vs locazione) e impatto per i clienti sanitari esenti
+- [ ] Togliere "locazione" dalle premesse dei contratti di servizio nei rinnovi?
+- [ ] Eventuale riduzione delle tariffe delle socie: effetto sul valore normale (oggi già sotto il listino terzi a pieno uso, **stima**)
 - [ ] Stima IRES/IRAP 2026 (probabile perdita fiscale riportabile)
 
 ## Risolti
