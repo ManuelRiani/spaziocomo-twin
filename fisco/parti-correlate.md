@@ -4,6 +4,8 @@
 
 Le tre socie acquistano servizi dalla società e ne sono il 76% dei ricavi (gen–giu 2026).
 
+Come professioniste sono tutte in regime forfettario (vedi [societa/anagrafica.md](../societa/anagrafica.md)): non detraggono l'IVA sugli acquisti, quindi l'IVA al 22% che la società addebita sul canone è per ciascuna un costo pieno (€ 819,67 + € 180,33 = € 1.000,00 al mese).
+
 | | Socie | Terzi a regime |
 |---|---|---|
 | Canone mensile imponibile | € 819,67 | € 195,00 – 216,32 |

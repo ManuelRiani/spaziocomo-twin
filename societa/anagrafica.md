@@ -26,10 +26,12 @@ Gestione, organizzazione e locazione di spazi professionali in centri multifunzi
 
 ## Soci
 
-| Socia | Codice | Quota nominale | % |
-|---|---|---|---|
-| Valentina Giacosa | SOC-VG | € 1.667 | 33,34% |
-| Erica Bertoni | SOC-EB | € 1.667 | 33,34% |
-| Roberta Mauri | SOC-RM | € 1.666 | 33,32% |
+| Socia | Codice | Quota nominale | % | Professione | Regime fiscale come professionista |
+|---|---|---|---|---|---|
+| Valentina Giacosa | SOC-VG | € 1.667 | 33,34% | musicoterapista | forfettario |
+| Erica Bertoni | SOC-EB | € 1.667 | 33,34% | logopedista | forfettario |
+| Roberta Mauri | SOC-RM | € 1.666 | 33,32% | psicomotricista | forfettario |
+
+Professioni e regime: comunicati da Manuel il 03/11/2026.
 
 Statuto: ripartizione utili art. 22.2; clausole di recesso, prelazione e compromissoria presenti; titoli di debito previsti (art. 5.4). Lo statuto completo è nel Drive ma non è ancora stato trascritto.
