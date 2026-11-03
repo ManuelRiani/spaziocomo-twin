@@ -14,7 +14,7 @@
 - [ ] Orari di apertura dello studio (per calcolare la capacità)
 - [ ] **Consenso scritto di LA.SER** alla concessione delle stanze a terzi (art. 6 del contratto di locazione)
 - [ ] Eventuali legami tra il locatore LA.SER (amministratori o soci) e una delle socie (parti correlate)
-- [ ] Finanziamenti soci: importi effettivamente versati e date
+- [ ] Finanziamenti soci: importi effettivamente versati e date; eventuali trasferimenti dopo il 05/11/2025 senza delibera (la natura è chiarita: tutto ciò che non è capitale è prestito infruttifero)
 - [ ] Voce "INAIL (rata dipendenti)": a cosa si riferisce?
 - [ ] Voce "Tassa architetto" (€ 353, maggio 2026)
 - [ ] Pulizie di settembre 2026 a € 50: mese ridotto o dato incompleto?
@@ -41,6 +41,8 @@
 - [ ] Stima IRES/IRAP 2026 (probabile perdita fiscale riportabile)
 
 ## Risolti
+
+- [x] Natura dei versamenti delle socie: a parte il capitale sociale, sono tutti **prestiti infruttiferi**, nessun versamento a fondo perduto (confermato da Manuel Riani il 2026-11-03)
 
 - [x] Contratti fissi a € 195: "1 mezza giornata al mese" significa **a settimana** (confermato da Manuel Riani il 2026-11-03); il testo dei contratti va corretto → [DA_SISTEMARE.md](DA_SISTEMARE.md)
 

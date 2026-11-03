@@ -25,6 +25,8 @@ Legenda priorità: 🔴 subito (soldi o rischio legale), 🟠 entro il prossimo 
 | 🔴 | **Consenso scritto di LA.SER** alla concessione delle stanze a terzi (art. 6 del contratto di locazione) non trovato | socie | cercarlo; se non c'è, chiederlo |
 | 🟠 | Polizza assicurativa della società (RC + incendio con rinuncia alla rivalsa, richiesta dal contratto di locazione) non nel Drive | socie | caricarla nel Drive |
 
+| 🟠 | Eventuali trasferimenti delle socie dopo il 05/11/2025 senza delibera: sono prestiti (confermato) e vanno messi a verbale | socie | verbale con importo, data e scadenza |
+
 ## 3. Ricavi: possibili buchi di fatturazione
 
 | | Cosa | Chi | Come si sistema |
@@ -48,7 +50,7 @@ Legenda priorità: 🔴 subito (soldi o rischio legale), 🟠 entro il prossimo 
 | | Cosa | Dettagli |
 |---|---|---|
 | 🟠 | Durata dell'ammortamento dei lavori su immobile di terzi (€ 35.900) | [costi](costi/struttura-costi.md) |
-| 🟠 | **Finanziamenti soci** (€ 57.600 deliberati) con rimborso entro il 31/12/2028: non sostenibile ai livelli attuali (**[dedotto]**). Proroga, rinuncia o conversione in riserva | [finanziamenti](finanza/finanziamenti-soci.md) |
+| 🟠 | **Finanziamenti soci** (€ 57.600 deliberati): tutti i versamenti oltre il capitale sono prestiti da restituire entro il 31/12/2028 (confermato), non sostenibile ai livelli attuali (**[dedotto]**). Proroga, rinuncia o conversione in riserva | [finanziamenti](finanza/finanziamenti-soci.md) |
 | 🟠 | Inquadramento IVA dei contratti (servizio o locazione) e costo per i clienti sanitari esenti | [IVA](fisco/iva.md) |
 | 🟠 | Parti correlate: socie come clienti; eventuali legami con LA.SER | [parti correlate](fisco/parti-correlate.md) |
 | 🟢 | Stima IRES/IRAP 2026 (probabile perdita riportabile) | |
