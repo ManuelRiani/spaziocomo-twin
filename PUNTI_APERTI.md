@@ -3,6 +3,7 @@
 ## Da chiedere alle socie
 
 - [ ] **Ore incluse** in ciascun contratto fisso (socie e terzi) e tariffa oraria spot
+- [ ] Da fine marzo 2026 i terzi ricorrenti hanno una fattura mensile quasi costante: passaggio a contratto fisso, fatturazione a consuntivo o nuovo listino?
 - [ ] Mappa delle 6 stanze: chi le usa, in quali fasce orarie
 - [ ] Orari di apertura dello studio (per calcolare la capacità)
 - [ ] Fac-simile dei contratti con i professionisti

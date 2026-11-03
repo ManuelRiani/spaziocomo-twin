@@ -5,8 +5,8 @@ Prima ricostruzione dai documenti nel Drive. Copre i ricavi fino a giugno 2026 (
 ## In sintesi
 
 1. **La società è vicina al pareggio operativo ma non copre l'investimento.** Nel primo semestre 2026 i ricavi (€ 19.365) coprono i costi di gestione, ma restano circa € 1.000 di perdita prima degli ammortamenti. Con gli ammortamenti dei lavori (stima € 580/mese) la perdita semestrale sale a circa € 4.500.
-2. **Il 76% dei ricavi viene dalle socie.** I terzi a regime sono 4 contratti fissi da circa € 195/mese.
-3. **Mancano circa 4 contratti fissi** (al prezzo attuale dei terzi) per coprire anche gli ammortamenti.
+2. **Il 76% dei ricavi viene dalle socie.** I 4 terzi ricorrenti sono fatturati circa € 195/mese ciascuno (tipo di contratto da verificare).
+3. **Mancano circa € 680/mese di ricavi**, pari a 3–4 clienti in più al livello attuale dei terzi, per coprire anche gli ammortamenti.
 4. **I finanziamenti soci (€ 57.600) non sono rimborsabili entro il 2028** ai livelli attuali.
 5. **Il credito IVA si sta esaurendo**: dal 2027 la società verserà IVA ogni trimestre.
 
@@ -28,7 +28,7 @@ Mancano i costi di gennaio non fatturati: il foglio spese parte da febbraio.
 
 - Costi mensili: circa **€ 3.400** di gestione + € 580 di ammortamento = **€ 3.980**.
 - Ricavi mensili attuali (apr–giu): circa **€ 3.300**.
-- Differenza: circa **€ 680/mese** → **3,5 contratti fissi da € 195**, oppure un aumento medio delle tariffe di circa il 20%.
+- Differenza: circa **€ 680/mese** → **3,5 clienti in più da € 195/mese**, oppure un aumento medio delle tariffe di circa il 20%.
 
 Il dato che manca per capire *dove* trovare il margine è il **tasso di occupazione**: ore vendute per stanza rispetto alle ore disponibili. Con 6 stanze e 7 clienti ricorrenti non sappiamo se le stanze sono piene (serve alzare i prezzi) o mezze vuote (serve vendere ore).
 

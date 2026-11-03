@@ -22,4 +22,4 @@ Un file per decisione: `AAAA-MM-GG_titolo.md`, con questa struttura:
 | 30/09/2025 | locazione di via Paoli 3, 6 anni, € 24.000 + IVA/anno | contratto |
 | set–nov 2025 | finanziamenti soci infruttiferi per € 57.600 | verbali |
 | gen 2026 | canone socie da € 655 a € 819,67 + IVA (€ 1.000 lordi) | registri vendite |
-| mar–apr 2026 | terzi ricorrenti passati a canone mensile fisso (~€ 195) | registri vendite |
+| mar–apr 2026 | terzi ricorrenti fatturati mensilmente a ~€ 195 (natura del cambio **da verificare**: fisso, consuntivo o nuovo listino) | registri vendite |
