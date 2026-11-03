@@ -7,7 +7,8 @@ Fonte: "CONTRATTO LOCAZIONE COMO VIA PAOLI 3" (Google Doc, firmato 30/09/2025).
 - Como, via Pasquale Paoli 3, piano primo, **12 vani**.
 - Catasto: foglio 10, mappale 3451, sub. 719, categoria **A/10** (uffici e studi privati), rendita € 5.887,61.
 - APE n. 1307500110925, valida fino al 29/04/2035.
-- Stanze date in uso ai professionisti: **6** (dato dalle socie; la mappa stanza per stanza non è ancora documentata).
+- Stanze date in uso ai professionisti: **6**, con nome: 1 Armonia, 2 Sinfonia, 3 Orchestra, 4 Ritmo, 5 Voce, 6 Ascolto. Le stanze 3, 4 e 5 sono assegnate alle socie; arredi e assegnazioni in [contratti/allegati/A-elenco-beni.md](../contratti/allegati/A-elenco-beni.md).
+- Nome commerciale dello spazio nei contratti: **AltaLuna**.
 
 ## Locatore
 

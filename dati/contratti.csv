@@ -1,0 +1,23 @@
+id,codice,categoria,modello,inizio,fine,mesi,stanza,fascia_fissa,canone_mese,tariffa_ora,extra_ora,noshow_ora,preavviso_mesi,stato_al_2026_11_03,cartella_drive,drive_id,note
+C01,SOC-VG,musicoterapia,socia,2026-02-01,2026-08-01,6,3 Orchestra,,"819,67",,,,3,"scaduto sulla carta, ma archiviato tra gli attivi",1. CONTRATTI ATTIVI,1hJZDmT26pd62V7utOdoZTpS0jAUe9alw,
+C02,SOC-EB,logopedia,socia,2026-02-01,2026-08-01,6,5 Voce,,"819,67",,,,3,"scaduto sulla carta, ma archiviato tra gli attivi",1. CONTRATTI ATTIVI,1FS089v_OAtaXkTy65xoYHVikvu3pF-34,
+C03,SOC-RM,neuropsicomotricità (TNPEE),socia,2026-02-01,2026-08-01,6,4 Ritmo,,"819,67",,,,3,"scaduto sulla carta, ma archiviato tra gli attivi",1. CONTRATTI ATTIVI,1DJ5HZDS3XJ7tDAgixJEeaAb5DHoh9luN,
+C04,CLI-10,area educativa / arti terapie,spot-v1,2026-02-01,2026-08-01,6,,,,"10,66",,"5,74",3,concluso,CONCLUSI,1exkhsSWBtGiUsc_kha_vTily7DVJgQdN,
+C05,CLI-11,area educativa / perinatale,spot-v1,2026-02-02,2026-08-02,6,,,,"10,66",,"5,74",3,concluso,CONCLUSI,1pFEMNl73EIkcjWPTxpjZW2e7zl5CTQRx,
+C06,CLI-01,area sanitaria (iscritta a ordine),fisso-v1,2026-03-02,2026-09-02,6,,martedì pomeriggio (dalle 13),"195,00",,"10,66",,3,concluso,CONCLUSI,16G7vpjOR3pgUY5O2HlZvbVfmlc-M_fFt,sostituito da C15
+C07,CLI-02,area educativa / arti terapie,fisso-v1,2026-03-02,2026-09-02,6,,giovedì pomeriggio (dalle 13),"195,00",,"10,66",,3,concluso,CONCLUSI,1Fyh2iNhetu5-3t026ImZlJXGAhVR5sMr,sostituito da C16
+C08,CLI-03,area sanitaria (iscritta a ordine),fisso-v1,2026-03-02,2026-09-02,6,,martedì mattina (fino alle 13),"195,00",,"10,66",,3,concluso,CONCLUSI,1AjeZYkbQJJLFBep3j3xArJiCi-dvijk_,dal 29/10/2026 passa allo spot (C21)
+C09,CLI-04,area sanitaria (iscritta a ordine),fisso-v1,2026-03-02,2026-09-02,6,,giovedì pomeriggio (dalle 13),"195,00",,"10,66",,3,concluso,CONCLUSI,1OwNpuu4cMUYhiBfhDh1UMxbusDG_rEY5,sostituito da C17
+C10,CLI-07,area sanitaria (iscritta a ordine),spot-v1,2026-03-02,2026-09-02,6,,,,"10,66",,"5,74",3,concluso,CONCLUSI,1hxHCVgrjzFe_CuLPHpUdugilitfsWm0h,sostituito da C18
+C11,CLI-08,area educativa / famiglia,spot-v1,2026-03-02,2026-09-02,6,,,,"10,66",,"5,74",3,concluso,ALLEGATI CONTRATTO,11IyKztFhWbIBvT499Vh7ViUp2Cvs_SGb,"sostituito da C19; il PDF è nella cartella degli allegati, non in CONCLUSI"
+C12,CLI-09,attività non sanitaria (servizi alle famiglie),speciale,2026-03-09,2026-06-09,3,3 Orchestra,,,"25,00",,"12,50",1,concluso,CONCLUSI,1ddiO5vxbfrsmQgY_QPNHR6z7g2iZ6ru1,sostituito da C14
+C13,CLI-06,area educativa / famiglia,spot-v1,2026-05-15,2026-09-15,4,,,,"10,66",,"5,74",3,concluso,CONCLUSI,158UXM6b6xVyZkbPXNd1bw6uytReBZ72f,sostituito da C20
+C14,CLI-09,attività non sanitaria (servizi alle famiglie),speciale,2026-06-10,2026-12-10,6,3 Orchestra,,,"25,00",,"12,50",1,in corso,1. CONTRATTI ATTIVI,1hFqCwhs_k1SVdL3YO9UZWVwRaXDuvWBw,"nel testo la fine è 10.12.2027, incoerente con '6 mesi': qui 10/12/2026 **[dedotto]**"
+C15,CLI-01,area sanitaria (iscritta a ordine),fisso-v2,2026-09-03,2027-09-03,12,,martedì pomeriggio (dalle 13),"195,00",,"14,75",,3,in corso,1. CONTRATTI ATTIVI,1A5gC1WbfGq0QwnNx2qKks5wqg2D1UJQG,
+C16,CLI-02,area educativa / arti terapie,fisso-v2,2026-09-03,2027-09-03,12,,giovedì pomeriggio (dalle 13),"195,00",,"14,75",,3,in corso,1. CONTRATTI ATTIVI,1LWdyRsD7n4sS2VBvir4e6PTfsy7pt4Y7,
+C17,CLI-04,area sanitaria (iscritta a ordine),fisso-v2,2026-09-03,2027-09-03,12,,giovedì pomeriggio (dalle 13),"195,00",,"14,75",,3,in corso,1. CONTRATTI ATTIVI,1uIofkWiVSadcp_Jxs7b68zfhSvOMF3Yv,
+C18,CLI-07,area sanitaria (iscritta a ordine),spot-v2,2026-09-03,2027-09-03,12,,,,"14,75",,"7,37",3,in corso,1. CONTRATTI ATTIVI,1WoEoR-yJgCKrlkUy_p6Di0vGuk-IfLpD,
+C19,CLI-08,area educativa / famiglia,spot-v2,2026-09-03,2027-09-03,12,,,,"14,75",,"7,37",3,in corso,1. CONTRATTI ATTIVI,1lV7AaLPxupjBIShghV9PQsmcrX07M9U2,senza P.IVA nel contratto
+C20,CLI-06,area educativa / famiglia,spot-v2,2026-09-16,2027-09-16,12,,,,"14,75",,"7,37",3,in corso,1. CONTRATTI ATTIVI,1-BNwHRuLy7x2I3ZCTGbSdM5csRSe_3zD,senza P.IVA nel contratto
+C21,CLI-03,area sanitaria (iscritta a ordine),spot-v2,2026-10-29,2027-10-29,12,,,,"14,75",,"7,37",3,in corso,1. CONTRATTI ATTIVI,1ZaZDf0PYmhlwj-bLNTSZRiFgZNGKu7ET,scoperto dal 02/09 al 29/10/2026
+C22,CLI-12,area sanitaria (iscritta a registro),spot-v2,2026-11-04,2027-05-04,6,,,,"14,75",,"7,37",3,"firmato, non ancora iniziato",1. CONTRATTI ATTIVI,13gNjW72Q2b1bBXzohi4b7gNPQz8eWgkL,decorre dal giorno dopo la lettura

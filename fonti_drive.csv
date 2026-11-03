@@ -3,7 +3,15 @@ id,tipo,titolo,parent_id,usato_per
 1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,cartella,Documenti - IVA,,cartella IVA (fonte primaria)
 1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,cartella,2025,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,documenti IVA 2025
 13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,cartella,2026,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,documenti IVA 2026
-1g1nvYCUQnbIhOzvDHa109JTaauWS5DSPLm6xTCHptds,file,Codici anagrafica - gemello SpazioComo,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,tabella codici -> nomi (mai copiarla nel repo)
+1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,cartella,CONTRATTI SERVIZI,,contratti (sola lettura)
+1Djr1vXtbl7lmt9mFrKz5tWCeGIdY6mTO,cartella,1. CONTRATTI ATTIVI,1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,contratti/registro
+1rRksIcJNlSBSZCegVnCtilFubgpX_LRQ,cartella,2. FAC SIMILE CONTRATTI,1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,contratti/modelli
+1NwygU3Oh094iuJ4TCU5vu2Nrb8RR0VWx,cartella,CONCLUSI,1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,contratti/registro
+1sqPtCWP0ww5Eg-cGvMWUdSzZGmPQZQB-,cartella,ALLEGATI CONTRATTO,1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,contratti/allegati
+1rahqZ_mpHysvdPzG7q1yyGjjFDqLcdpT,cartella,INFORMATIVE 2026,1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP,non trascritta (dati personali)
+1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC,cartella,Bilancio e verbali società,,bilancio e verbali (sola lettura)
+1gTdQ9h4XGkjMWxR6lUfN46sHl7LJZOMB,cartella,spaziocomo-twin,,cartella in scrittura; tabella codici
+1g1nvYCUQnbIhOzvDHa109JTaauWS5DSPLm6xTCHptds,file,Codici anagrafica - gemello SpazioComo,1gTdQ9h4XGkjMWxR6lUfN46sHl7LJZOMB,tabella codici -> nomi (mai copiarla nel repo)
 15TwIRVEJ6SngBkBatwnuCvLELxofgaBA,file,SPESE MENSILI STUDIO.xlsx,1lAB2oDpwI6dln9rCWZNQL2jwz1RUDaCE,dati/spese_cassa_mensili.csv
 1gBm9TkCmTDPUV3TYg3D4tm_o2Xyu9C7s,file,REGISTRI IVA VENDITE IV TRIM.pdf,1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,dati/ricavi_fatture.csv
 1tIl0UinP8gBB7xX1kOIgFRmH2TakE_aq,file,REGISTRI IVA ACQUISTI IV TRIM.pdf,1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,dati/acquisti_registro_iva.csv
@@ -22,3 +30,12 @@ id,tipo,titolo,parent_id,usato_per
 1UyZ6d8Xz83r4BNDVvhnk_P5Nx1n2ggRw,file,LIBRO ASSEMBLEE SpazioComo s.r.l..docx,1-w_WtFBPCHmfudWtaLIUgG9jtWgpK7_r,solo frontespizio
 18UPJnvLz8Vz_XDi8pVNHW4F77wdPxvV7,file,tari SpazioComo .pdf,1qgCrWL129xMEKR2akJxv87iIliWP5fOw,non ancora trascritto
 1sa20dVNLOfiYyTG8lc6ExiR7PTC10T4C,file,LIPE III TRIMESTRE SPAZIOCOMO SRL.pdf,1cUt62AoHGoc3aXBh88Ssssrkjk8AL7-r,non ancora trascritto
+10WFPyZ-DuoBxA4xDFn7TfalRYc0maNAC,file,CONTRATTO DI PRESTAZIONE DI SERVIZI_.pdf,1rRksIcJNlSBSZCegVnCtilFubgpX_LRQ,contratti/modelli/fisso-mezza-giornata.md
+12fvTmVb86XGqygzPHctlz1YxXvAgV1uv,file,CONTRATTO OCCASIONALE DI PRESTAZIONE DI SERVIZI.docx.pdf,1rRksIcJNlSBSZCegVnCtilFubgpX_LRQ,contratti/modelli/spot.md
+1NTqCwvUOyR5uXg3jo1gwPIsX7GtwP8ew,file,ALLEGATO A .docx,1sqPtCWP0ww5Eg-cGvMWUdSzZGmPQZQB-,contratti/allegati/A-elenco-beni.md
+1EuWUw7qHzCuVpWyCOPEEOpTBcxGetlKt,file,Patto di Collaborazione e Regolamento Interno .pdf,1sqPtCWP0ww5Eg-cGvMWUdSzZGmPQZQB-,contratti/allegati/B-patto-collaborazione.md
+1xWVHe1XfXa4mkHjKRCVB25NGJrsWacxh,file,Informativa Privacy SpazioComo PDF.pdf,1sqPtCWP0ww5Eg-cGvMWUdSzZGmPQZQB-,non trascritta
+1RCEN8qcl8_kecNkaNmH-srMxMj09M-YV,file,VISURA DEPOSITO BILANCIO.pdf,1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC,non ancora trascritto
+1oCyUuqBCcL3lHeK8_IkhOhFKEVx9GSBk,file,K96.INFOCALCESP.04244840130.2025.MICRO.xbrl.p7m,1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC,bilancio 2025 (non ancora trascritto)
+1mG3LzHsawLACIMcz8tJjZN1qmza7203r,file,K96 VERBALE AL 30042026 PDF.A.pdf.p7m,1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC,verbale approvazione bilancio (non ancora trascritto)
+15BWSaGvCHA4WUhDDt99FlIIkkzDo69AS,file,QW0FYL-527O2016-2026.PDF.p7m,1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC,pratica deposito (non ancora trascritta)

@@ -12,10 +12,20 @@ Letti il 2026-11-03. I link funzionano solo per chi ha accesso alle cartelle con
 | Documenti - IVA | https://drive.google.com/drive/folders/1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7 |
 | Documenti - IVA / 2025 | https://drive.google.com/drive/folders/1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK |
 | Documenti - IVA / 2026 | https://drive.google.com/drive/folders/13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg |
+| CONTRATTI SERVIZI | https://drive.google.com/drive/folders/1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP |
+| CONTRATTI SERVIZI / 1. CONTRATTI ATTIVI | https://drive.google.com/drive/folders/1Djr1vXtbl7lmt9mFrKz5tWCeGIdY6mTO |
+| CONTRATTI SERVIZI / 2. FAC SIMILE CONTRATTI | https://drive.google.com/drive/folders/1rRksIcJNlSBSZCegVnCtilFubgpX_LRQ |
+| CONTRATTI SERVIZI / CONCLUSI | https://drive.google.com/drive/folders/1NwygU3Oh094iuJ4TCU5vu2Nrb8RR0VWx |
+| CONTRATTI SERVIZI / ALLEGATI CONTRATTO | https://drive.google.com/drive/folders/1sqPtCWP0ww5Eg-cGvMWUdSzZGmPQZQB- |
+| CONTRATTI SERVIZI / INFORMATIVE 2026 | https://drive.google.com/drive/folders/1rahqZ_mpHysvdPzG7q1yyGjjFDqLcdpT |
+| Bilancio e verbali società | https://drive.google.com/drive/folders/1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC |
+| **spaziocomo-twin** (unica cartella in **scrittura**) | https://drive.google.com/drive/folders/1gTdQ9h4XGkjMWxR6lUfN46sHl7LJZOMB |
+
+Tutte le cartelle sono in sola lettura per Manuel, tranne `spaziocomo-twin`.
 
 ## Tabella codici → nomi
 
-**Codici anagrafica - gemello SpazioComo** (Google Sheet in "Documenti - IVA"):
+**Codici anagrafica - gemello SpazioComo** (Google Sheet nella cartella "spaziocomo-twin", modificabile):
 https://docs.google.com/spreadsheets/d/1g1nvYCUQnbIhOzvDHa109JTaauWS5DSPLm6xTCHptds/edit
 
 È l'unico posto in cui i codici `SOC-`, `CLI-` e `FOR-` sono associati ai nomi. Un nuovo cliente o fornitore persona fisica si aggiunge lì e nel repo compare solo il codice.
@@ -34,6 +44,28 @@ https://docs.google.com/spreadsheets/d/1g1nvYCUQnbIhOzvDHa109JTaauWS5DSPLm6xTCHp
 | REGISTRI IVA SECONDO TRIMESTRE | https://drive.google.com/file/d/1Ndz_7HRiQaKsLrNt2Tk97rYLiUnxc46N/view | apr–giu 2026 | ricavi, acquisti, liquidazione T2 |
 | LIQUIDAZIONE IVA SECONDO TRIMESTRE | https://drive.google.com/file/d/12vjbtswkgBwxQU2KpyN2XLs80aNqyzm9/view | T2 2026 | liquidazioni |
 | Lipe II Trimestre | https://drive.google.com/file/d/1_9sg-982oRmvaMVy0I4isWMGF2-Be5Qs/view | T2 2026 | controllo totali |
+
+## Contratti di servizio
+
+| Documento | Link | Usato per |
+|---|---|---|
+| Fac-simile contratto fisso | https://drive.google.com/file/d/10WFPyZ-DuoBxA4xDFn7TfalRYc0maNAC/view | `contratti/modelli/fisso-mezza-giornata.md` |
+| Fac-simile contratto spot ("occasionale") | https://drive.google.com/file/d/12fvTmVb86XGqygzPHctlz1YxXvAgV1uv/view | `contratti/modelli/spot.md` |
+| Allegato A – elenco beni | https://drive.google.com/file/d/1NTqCwvUOyR5uXg3jo1gwPIsX7GtwP8ew/view | `contratti/allegati/A-elenco-beni.md` |
+| Patto di collaborazione | https://drive.google.com/file/d/1EuWUw7qHzCuVpWyCOPEEOpTBcxGetlKt/view | `contratti/allegati/B-patto-collaborazione.md` |
+| Informativa privacy (modello) | https://drive.google.com/file/d/1xWVHe1XfXa4mkHjKRCVB25NGJrsWacxh/view | non trascritta |
+| 22 contratti firmati | ID Drive nella colonna `drive_id` di [`dati/contratti.csv`](dati/contratti.csv) | `contratti/registro/` |
+
+I titoli dei contratti firmati e delle informative contengono il cognome del professionista: per questo nel repo compare solo l'ID del file, mai il titolo. "INFORMATIVE 2026" contiene anche documenti d'identità: non si trascrive.
+
+## Bilancio e verbali
+
+| Documento | Link | Usato per |
+|---|---|---|
+| VISURA DEPOSITO BILANCIO.pdf | https://drive.google.com/file/d/1RCEN8qcl8_kecNkaNmH-srMxMj09M-YV/view | non ancora trascritto |
+| Bilancio 2025 micro, XBRL firmato (.p7m) | https://drive.google.com/file/d/1oCyUuqBCcL3lHeK8_IkhOhFKEVx9GSBk/view | non ancora trascritto |
+| Verbale di approvazione al 30/04/2026 (.p7m) | https://drive.google.com/file/d/1mG3LzHsawLACIMcz8tJjZN1qmza7203r/view | non ancora trascritto |
+| Pratica di deposito (.p7m) | https://drive.google.com/file/d/15BWSaGvCHA4WUhDDt99FlIIkkzDo69AS/view | non ancora trascritto |
 
 ## Documenti societari
 

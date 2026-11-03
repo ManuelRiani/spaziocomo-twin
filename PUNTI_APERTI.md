@@ -2,11 +2,15 @@
 
 ## Da chiedere alle socie
 
-- [ ] **Ore incluse** in ciascun contratto fisso (socie e terzi) e tariffa oraria spot
-- [ ] Da fine marzo 2026 i terzi ricorrenti hanno una fattura mensile quasi costante: passaggio a contratto fisso, fatturazione a consuntivo o nuovo listino?
-- [ ] Mappa delle 6 stanze: chi le usa, in quali fasce orarie
+- [ ] Contratti fissi a € 195: "1 mezza giornata **al mese**" o **a settimana**? Il testo dice al mese; **[dedotto]** è più plausibile a settimana (contratti C06–C09, C15–C17)
+- [ ] Contratti delle socie (C01–C03) **scaduti il 01/08/2026** senza rinnovo scritto: rinnovarli per iscritto (art. 4.2)?
+- [ ] C14 (CLI-09): fine "10.12.2027" con durata "6 mesi": quale data vale?
+- [ ] CLI-07, CLI-08, CLI-09, CLI-10, CLI-11 hanno contratti da feb–mar 2026 ma nessuna fattura fino a giugno: zero ore usate o ore non fatturate?
+- [ ] CLI-03 senza contratto dal 02/09 al 29/10/2026: ha usato le stanze in quel periodo?
+- [ ] Stanza 3: come convivono la socia SOC-VG e l'esclusiva di categoria di CLI-09 (fasce orarie)?
+- [ ] Come si controllano le ore dichiarate dagli spot (esiste un calendario delle prenotazioni)?
+- [ ] Fasce orarie occupate stanza per stanza (le stanze 1, 2 e 6 non sono assegnate nei contratti)
 - [ ] Orari di apertura dello studio (per calcolare la capacità)
-- [ ] Fac-simile dei contratti con i professionisti
 - [ ] **Consenso scritto di LA.SER** alla concessione delle stanze a terzi (art. 6 del contratto di locazione)
 - [ ] Eventuali legami tra il locatore LA.SER (amministratori o soci) e una delle socie (parti correlate)
 - [ ] Finanziamenti soci: importi effettivamente versati e date
@@ -18,9 +22,9 @@
 ## Dati mancanti nel Drive
 
 - [ ] Registri IVA e liquidazione **T3 2026** (lug–set)
-- [ ] Fatture di vendita lug–ott 2026
+- [ ] Fatture di vendita e di acquisto (non ancora nel Drive; vedi proposta di gestione in `CLAUDE.md`)
 - [ ] Registri IVA **T3 2025** (settembre, avvio)
-- [ ] Bilancio 2025 (stato patrimoniale e conto economico)
+- [ ] Bilancio 2025: è nel Drive ("Bilancio e verbali società") come file firmati `.p7m` (XBRL micro e verbale di approvazione al 30/04/2026), non ancora trascritto
 - [ ] Estratti conto bancari
 - [ ] Polizza assicurativa (massimali richiesti dal contratto)
 - [ ] Statuto (presente nel Drive in .doc, non ancora trascritto)
@@ -35,4 +39,6 @@
 
 ## Risolti
 
-_(nessuno)_
+- [x] Da fine marzo 2026 i terzi ricorrenti hanno una fattura mensile costante → è il **contratto fisso** a mezza giornata dal 02/03/2026 (contratti C06–C09, Drive "CONTRATTI SERVIZI", letti il 2026-11-03)
+- [x] Fac-simile dei contratti e tariffe spot → in [contratti/](contratti/README.md)
+- [x] Nomi e attrezzatura delle 6 stanze → Allegato A ([contratti/allegati/A-elenco-beni.md](contratti/allegati/A-elenco-beni.md))

@@ -7,14 +7,16 @@ Fonte: registri IVA vendite, nov 2025 – giu 2026 (`dati/ricavi_fatture.csv`).
 | SOC-VG | socia | nov 2025 | importo mensile costante, € 819,67 + IVA dal 2026 |
 | SOC-EB | socia | nov 2025 | importo mensile costante, € 819,67 + IVA dal 2026 |
 | SOC-RM | socia | dic 2025 | importo mensile costante, € 819,67 + IVA dal 2026 |
-| CLI-01 | terzo | dic 2025 | importi variabili → fattura mensile ~€ 195 da fine mar 2026 |
-| CLI-02 | terzo | dic 2025 | importi variabili → fattura mensile (€ 216,32 apr–mag, € 195 giu) |
-| CLI-03 | terzo | dic 2025 | importi variabili → fattura mensile ~€ 195 da fine mar 2026 |
-| CLI-04 | terzo | dic 2025 | importi variabili → fattura mensile ~€ 195 da fine mar 2026 |
+| CLI-01 | terzo | dic 2025 | importi variabili → fisso € 195/mese dal 02/03/2026 |
+| CLI-02 | terzo | dic 2025 | importi variabili → fisso € 195/mese dal 02/03/2026 (+ 2 ore extra apr–mag) |
+| CLI-03 | terzo | dic 2025 | importi variabili → fisso € 195/mese mar–set 2026 → spot dal 29/10/2026 |
+| CLI-04 | terzo | dic 2025 | importi variabili → fisso € 195/mese dal 02/03/2026 |
 | CLI-05 | terzo | giu 2026 | una fattura (€ 81,97) |
-| CLI-06 | terzo | giu 2026 | una fattura (€ 64,17) |
+| CLI-06 | terzo | giu 2026 | una fattura (€ 64,17); contratto spot da mag 2026 |
 
-**[dedotto]** Il cambio di andamento potrebbe essere il passaggio da spot a fisso, ma è compatibile anche con una fatturazione mensile a consuntivo di uso costante o con un nuovo listino. Si scioglie solo con i contratti (vedi [PUNTI_APERTI.md](../PUNTI_APERTI.md)).
+Altri professionisti con contratto ma **nessuna fattura** nei registri fino a giugno 2026: CLI-07, CLI-08, CLI-09, CLI-10, CLI-11; CLI-12 ha un contratto dal 04/11/2026. Dettaglio in [contratti/](../contratti/README.md).
+
+Il cambio di andamento di CLI-01…04 è il **passaggio al contratto fisso** a mezza giornata dal 02/03/2026 (confermato dai contratti C06–C09, letti il 2026-11-03; vedi [contratti/](../contratti/README.md)).
 
 ## Concentrazione (gen–giu 2026)
 

@@ -9,6 +9,7 @@ Generati da `scripts/build_dati.py`, trascrizione manuale dei documenti del Driv
 | `spese_cassa_mensili.csv` | foglio spese delle socie | **lordo** (IVA inclusa) | feb – nov 2026 |
 | `liquidazioni_iva.csv` | liquidazioni periodiche | | 2025, T1-T2 2026 |
 | `finanziamenti_soci.csv` | delibere di finanziamento | | set – nov 2025 |
+| `contratti.csv` | un contratto di servizio per riga (generato da `scripts/build_contratti.py`) | imponibile | feb 2026 – 2027 |
 
 ## Controlli di quadratura
 

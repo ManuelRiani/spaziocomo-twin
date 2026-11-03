@@ -11,6 +11,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [societa/](societa/) | anagrafica, soci, governance |
 | [spazi/](spazi/) | immobile, contratto di locazione passivo, stanze |
 | [offerta/](offerta/) | formule contrattuali, tariffe osservate, clienti |
+| [contratti/](contratti/README.md) | contratti con i professionisti: modelli riscritti in Markdown, allegati, registro (generato da `scripts/build_contratti.py`) |
 | [costi/](costi/) | struttura dei costi |
 | [fisco/](fisco/) | IVA, parti correlate, scadenze |
 | [finanza/](finanza/) | finanziamenti soci, cassa |
@@ -28,7 +29,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 ## Privacy
 
 - Repo **privato**. Accesso: Manuel Riani + le tre socie.
-- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza esiste **solo** come Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella Drive "Documenti - IVA" (link in [fonti.md](fonti.md)); non viene mai copiata nel repo.
+- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza esiste **solo** come Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella Drive "spaziocomo-twin" (link in [fonti.md](fonti.md)); non viene mai copiata nel repo.
 - Nessun'altra informazione personale non anonimizzata, a parte quelle delle socie, entra nel repo (regola completa in [CLAUDE.md](CLAUDE.md)).
 - Le socie compaiono con i codici `SOC-VG`, `SOC-EB`, `SOC-RM` nei dati e per nome nei documenti di governance.
 

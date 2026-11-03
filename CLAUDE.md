@@ -28,15 +28,20 @@ La **fonte di verità** sono i documenti nel Google Drive delle socie. Il repo n
 | Documenti - IVA | `1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7` |
 | Documenti - IVA / 2025 | `1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK` |
 | Documenti - IVA / 2026 | `13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg` |
+| CONTRATTI SERVIZI (e sottocartelle "1. CONTRATTI ATTIVI", "2. FAC SIMILE CONTRATTI", "CONCLUSI", "ALLEGATI CONTRATTO") | `1P2bbLTvsXSon1nEKNfe-0VpwEwuMZ9nP` |
+| Bilancio e verbali società | `1cg_YlwNZE2LloSy0NoB9B_vBIBRYRQBC` |
+| spaziocomo-twin (**l'unica in scrittura**) | `1gTdQ9h4XGkjMWxR6lUfN46sHl7LJZOMB` |
+
+  Tutte le cartelle sono in sola lettura tranne `spaziocomo-twin`, dove sta il foglio codici e dove si possono salvare file di lavoro per le socie. La sottocartella "INFORMATIVE 2026" contiene informative firmate e documenti d'identità: non si legge e non si trascrive.
 
   Ricerca dei file nuovi: `search_files` con `parentId = '<ID>' and modifiedTime > '<data ultimo aggiornamento in STATO.md>'`, per ciascuna cartella (comprese eventuali nuove sottocartelle, per esempio un anno nuovo). Il foglio "SPESE MENSILI STUDIO.xlsx" viene **modificato** e non sostituito: controllane `modifiedTime`.
-- Tabella codici → nomi: Google Sheet "Codici anagrafica - gemello SpazioComo" in "Documenti - IVA" (link in `fonti.md`). Si **legge** dal Drive quando serve; non se ne fa mai una copia nel repo, neanche in cartelle ignorate da git.
+- Tabella codici → nomi: Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella "spaziocomo-twin" (link in `fonti.md`). Si **legge** dal Drive quando serve; non se ne fa mai una copia nel repo, neanche in cartelle ignorate da git.
 
 ### Controllo dei percorsi Drive (obbligatorio)
 
 Gli ID dei file Drive restano validi anche se un file viene rinominato o spostato, ma titoli e cartelle scritti nel repo diventano sbagliati. A ogni inizio sessione con il connettore Drive, e comunque prima di ogni aggiornamento dei dati:
 
-1. Per ogni riga di `fonti_drive.csv`, leggi i metadati del file con `get_file_metadata` (con `excludeContentSnippets: true`) e confronta `title` e `parentId` con `titolo` e `parent_id`.
+1. Per ogni riga di `fonti_drive.csv` (e, per i contratti firmati, per ogni `drive_id` di `dati/contratti.csv`: lì si controlla solo che il file esista e non sia nel cestino, perché il titolo contiene il cognome e non va scritto nel repo), leggi i metadati del file con `get_file_metadata` (con `excludeContentSnippets: true`) e confronta `title` e `parentId` con `titolo` e `parent_id`.
 2. **Rinominato o spostato**: aggiorna `fonti_drive.csv`, la riga corrispondente di `fonti.md`, la tabella delle cartelle qui sotto (se è una cartella) e ogni altro riferimento nel repo (`grep -r` sul vecchio titolo). Commit con messaggio `Fonti Drive: <vecchio> → <nuovo>`.
 3. **Non trovato o nel cestino**: cerca per titolo con `search_files`. Se lo trovi con un altro ID, aggiorna come sopra; se non lo trovi, **non** cancellare il riferimento: segnalalo all'utente e aggiungilo a `PUNTI_APERTI.md`.
 4. **Nuova cartella** (per esempio `Documenti - IVA / 2027`): aggiungila a `fonti_drive.csv`, `fonti.md` e alla tabella qui sotto.
@@ -50,6 +55,8 @@ Gli ID dei file Drive restano validi anche se un file viene rinominato o spostat
   - Vietati: nomi e cognomi di persone diverse dalle socie (clienti, fornitori, professionisti, amministratori di altre società, parenti), anche dentro la ragione sociale di una ditta o società (per esempio una SRL o una SAS col nome del titolare), codici fiscali, indirizzi, telefoni, email, IBAN, legami di parentela con persone identificabili.
   - Le persone si indicano solo con un codice: `CLI-xx` clienti, `FOR-Pxx` professionisti, `FOR-PUL` pulizie, `FOR-Axx` altri fornitori con nome personale. Un soggetto nuovo riceve il primo codice libero e va aggiunto **prima** al Google Sheet dei codici.
   - La tabella di conversione codici → nomi **non** va mai nel repo, né come file né in cartelle ignorate (`privato/` non deve esistere nella cartella del repo).
+  - I **titoli dei file Drive** dei contratti e delle informative contengono il cognome: nel repo si scrive solo l'ID del file.
+  - Dai contratti non si trascrivono professione esatta dei terzi (solo una categoria generica), iscrizione all'albo, polizza RC, P.IVA. L'IBAN della società si omette.
   - Le società senza nome personale nella ragione sociale (es. LA.SER S.r.l., Eni, Fastweb) si possono nominare.
   - Prima di ogni commit: controllo privacy (passo 8 della procedura). Se un dato personale è finito in un commit già pubblicato, va rimosso anche dalla storia (riscrittura e push forzato), avvisando l'utente.
 - Distingui sempre **imponibile** (al netto IVA, dai registri) e **lordo** (IVA inclusa, dal foglio spese).
@@ -63,11 +70,11 @@ Gli ID dei file Drive restano validi anche se un file viene rinominato o spostat
 Ogni volta che si chiede di aggiornare i dati, esegui **tutti** questi passi, nell'ordine:
 
 1. Esegui il **controllo dei percorsi Drive**, poi **cerca i documenti nuovi** nelle cartelle Drive (vedi sopra) dalla data in `STATO.md`. Elencali all'utente prima di trascriverli.
-2. **Trascrivi** i nuovi documenti in `scripts/build_dati.py`:
+2. **Trascrivi** i nuovi contratti in `scripts/build_contratti.py` e i nuovi documenti contabili in `scripts/build_dati.py`:
    - ricavi: lista `F` (data, numero, cliente, imponibile, iva), una riga per fattura del registro vendite, esclusi i reverse charge;
    - acquisti: lista `A`, aprendo ogni mese di registro con il marcatore `("@", "AAAA-MM")`; categoria tra quelle già usate (la scelta della categoria è **[dedotto]**);
    - liquidazioni: lista `L`; spese di cassa: dizionario `S`; finanziamenti soci: in fondo.
-3. `python3 scripts/build_dati.py`
+3. `python3 scripts/build_contratti.py` e `python3 scripts/build_dati.py`
 4. `python3 scripts/verifica.py`: aggiorna i totali attesi con quelli delle nuove liquidazioni o LIPE.
 5. **`python3 scripts/partita_doppia.py`**: rigenera la partita doppia di **ogni** anno in `contabilita/<anno>/`. Va sempre rieseguita, anche se l'aggiornamento riguarda un solo anno: i saldi patrimoniali passano da un anno all'altro.
 6. Se un controllo fallisce (lo script esce con codice 1), **non committare**: trova la causa e correggi i dati.
@@ -84,7 +91,9 @@ Nella partita doppia ogni movimento ha un campo `evidenza` (`documento`, `dedott
 | "Aggiorna i dati" / "ci sono novità?" | Procedura di aggiornamento completa |
 | "Fammi vedere i grafici" / nuovo grafico | `grafici/README.md` e `grafici/<anno>/README.md`; un grafico nuovo si aggiunge in `scripts/grafici.py`, non a mano |
 | "Come va la società?" | Leggi `contabilita/<anno>/README.md` e l'ultima analisi; rispondi con numeri citati, e date di copertura |
-| Domanda su IVA, scadenze, contratti | `fisco/`, `spazi/immobile.md`, `offerta/contratti.md`; per i dettagli torna al documento in `fonti.md` |
+| Domanda su IVA, scadenze | `fisco/`, `spazi/immobile.md`; per i dettagli torna al documento in `fonti.md` |
+| Domanda sui contratti con i professionisti | `contratti/README.md`, `contratti/modelli/`, `dati/contratti.csv` |
+| Nuovo contratto firmato nel Drive | aggiungi una riga in `C` di `scripts/build_contratti.py` (codice dal foglio codici, prima libero se nuovo), poi `python3 scripts/build_contratti.py`; aggiorna `contratti/README.md` se cambia il listino |
 | Simulazione (prezzi, nuovi clienti, costi) | Nuovo file in `analisi/`, con ipotesi esplicite e marcate **stima** |
 | Preparare domande per commercialista o socie | Parti da `PUNTI_APERTI.md` |
 | Una socia conferma un'informazione | Togli il marcatore **[dedotto]** dove serve, cita la conferma (chi, quando), aggiorna `PUNTI_APERTI.md` |
