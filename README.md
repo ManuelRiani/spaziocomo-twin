@@ -23,7 +23,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 ## Privacy
 
 - Repo **privato**. Accesso: Manuel Riani + le tre socie.
-- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza è in `privato/`, esclusa da git.
+- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza è il Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella Drive "Documenti - IVA" (link in [fonti.md](fonti.md)); la copia locale in `privato/` è esclusa da git.
 - Le socie compaiono con i codici `SOC-VG`, `SOC-EB`, `SOC-RM` nei dati e per nome nei documenti di governance.
 
 ## Aggiornare i dati
