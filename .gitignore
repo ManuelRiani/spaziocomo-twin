@@ -1,0 +1,5 @@
+privato/
+__pycache__/
+*.pdf
+*.xlsx
+.DS_Store
