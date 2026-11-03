@@ -18,7 +18,9 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [dati/](dati/) | CSV trascritti dai documenti (vedi [dati/README.md](dati/README.md)) |
 | [analisi/](analisi/) | analisi datate |
 | [decisioni/](decisioni/) | registro decisioni |
+| [STATO.md](STATO.md) | copertura dei dati, ultimo aggiornamento, documenti attesi |
 | [PUNTI_APERTI.md](PUNTI_APERTI.md) | domande e verifiche in sospeso |
+| [CLAUDE.md](CLAUDE.md) | istruzioni operative per le sessioni di Claude |
 | [fonti.md](fonti.md) | documenti del Drive da cui viene ogni dato |
 
 ## Privacy
