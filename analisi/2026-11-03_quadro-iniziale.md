@@ -24,6 +24,8 @@ Prima ricostruzione dai documenti nel Drive. Copre i ricavi fino a giugno 2026 (
 
 Mancano i costi di gennaio non fatturati: il foglio spese parte da febbraio.
 
+Nota: la partita doppia (`contabilita/2026/`) dà per gen–giu 2026 un risultato di −5.617. La differenza rispetto a questa stima è che lì la fattura FOR-P01 (€ 1.768, registrata a gennaio) è un costo di periodo e la TARI non è ancora registrata, perché è pagata a ottobre.
+
 ## Punto di pareggio
 
 - Costi mensili: circa **€ 3.400** di gestione + € 580 di ammortamento = **€ 3.980**.

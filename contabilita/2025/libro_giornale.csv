@@ -1,0 +1,370 @@
+data,scrittura,conto,nome_conto,dare,avere,descrizione,evidenza
+2025-08-05,1,1010,Banca c/c,5000.00,0.00,Capitale sociale versato (visura),documento
+2025-08-05,1,2000,Capitale sociale,0.00,5000.00,Capitale sociale versato (visura),documento
+2025-09-15,3,1010,Banca c/c,13500.00,0.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-09-15,3,2100,Finanziamenti soci infruttiferi,0.00,13500.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-09-25,2,1300,Depositi cauzionali,6000.00,0.00,Cauzione locazione LA.SER (contratto art. 7),documento
+2025-09-25,2,1010,Banca c/c,0.00,6000.00,Cauzione locazione LA.SER (contratto art. 7),documento
+2025-09-30,7,5090,Altri costi,1529.09,0.00,"Acquisti Q3 2025 non dettagliati (da dichiarazione IVA, natura non nota)",aggregato
+2025-09-30,7,1200,IVA a credito (periodo),336.40,0.00,"Acquisti Q3 2025 non dettagliati (da dichiarazione IVA, natura non nota)",aggregato
+2025-09-30,7,2200,Debiti verso fornitori,0.00,1865.49,"Acquisti Q3 2025 non dettagliati (da dichiarazione IVA, natura non nota)",aggregato
+2025-09-30,8,2200,Debiti verso fornitori,1865.49,0.00,Pagamento acquisti Q3 2025,dedotto
+2025-09-30,8,1010,Banca c/c,0.00,1865.49,Pagamento acquisti Q3 2025,dedotto
+2025-09-30,324,1200,IVA a credito (periodo),0.00,336.40,Liquidazione IVA 2025T3,documento
+2025-09-30,324,1210,Erario c/IVA (saldo liquidazioni),336.40,0.00,Liquidazione IVA 2025T3,documento
+2025-10-01,4,1010,Banca c/c,14700.00,0.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-10-01,4,2100,Finanziamenti soci infruttiferi,0.00,14700.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-10-01,9,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-10-01,9,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2025-10-01,9,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-10-01,10,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2025-10-01,10,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2025-10-01,11,5040,Commercialista e consulenze,249.50,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-01,11,2200,Debiti verso fornitori,0.00,304.39,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-01,11,1200,IVA a credito (periodo),54.89,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-01,12,2200,Debiti verso fornitori,304.39,0.00,Pagamento Accounting Hub (Fido),dedotto
+2025-10-01,12,1010,Banca c/c,0.00,304.39,Pagamento Accounting Hub (Fido),dedotto
+2025-10-01,13,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2025-10-01,13,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2025-10-01,13,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2025-10-01,14,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2025-10-01,14,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2025-10-01,31,5040,Commercialista e consulenze,249.50,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-01,31,2200,Debiti verso fornitori,0.00,304.39,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-01,31,1200,IVA a credito (periodo),54.89,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-01,32,2200,Debiti verso fornitori,304.39,0.00,Pagamento Servizi Innovativi (Fido),dedotto
+2025-10-01,32,1010,Banca c/c,0.00,304.39,Pagamento Servizi Innovativi (Fido),dedotto
+2025-10-02,15,1410,"Mobili, arredi e attrezzature",1739.63,0.00,Fattura Bricoman (allestimento),documento
+2025-10-02,15,2200,Debiti verso fornitori,0.00,2122.34,Fattura Bricoman (allestimento),documento
+2025-10-02,15,1200,IVA a credito (periodo),382.71,0.00,Fattura Bricoman (allestimento),documento
+2025-10-02,16,2200,Debiti verso fornitori,2122.34,0.00,Pagamento Bricoman,dedotto
+2025-10-02,16,1010,Banca c/c,0.00,2122.34,Pagamento Bricoman,dedotto
+2025-10-03,17,1410,"Mobili, arredi e attrezzature",28.48,0.00,Fattura Action (allestimento),documento
+2025-10-03,17,2200,Debiti verso fornitori,0.00,34.75,Fattura Action (allestimento),documento
+2025-10-03,17,1200,IVA a credito (periodo),6.27,0.00,Fattura Action (allestimento),documento
+2025-10-03,18,2200,Debiti verso fornitori,34.75,0.00,Pagamento Action,dedotto
+2025-10-03,18,1010,Banca c/c,0.00,34.75,Pagamento Action,dedotto
+2025-10-07,19,1410,"Mobili, arredi e attrezzature",500.00,0.00,Fattura Fisiostore (allestimento),documento
+2025-10-07,19,2200,Debiti verso fornitori,0.00,610.00,Fattura Fisiostore (allestimento),documento
+2025-10-07,19,1200,IVA a credito (periodo),110.00,0.00,Fattura Fisiostore (allestimento),documento
+2025-10-07,20,2200,Debiti verso fornitori,610.00,0.00,Pagamento Fisiostore,dedotto
+2025-10-07,20,1010,Banca c/c,0.00,610.00,Pagamento Fisiostore,dedotto
+2025-10-07,21,1410,"Mobili, arredi e attrezzature",15.50,0.00,Fattura Gruppo Veneziano (allestimento),documento
+2025-10-07,21,2200,Debiti verso fornitori,0.00,18.91,Fattura Gruppo Veneziano (allestimento),documento
+2025-10-07,21,1200,IVA a credito (periodo),3.41,0.00,Fattura Gruppo Veneziano (allestimento),documento
+2025-10-07,22,2200,Debiti verso fornitori,18.91,0.00,Pagamento Gruppo Veneziano,dedotto
+2025-10-07,22,1010,Banca c/c,0.00,18.91,Pagamento Gruppo Veneziano,dedotto
+2025-10-07,33,1410,"Mobili, arredi e attrezzature",25.73,0.00,Fattura Amazon (allestimento),documento
+2025-10-07,33,2200,Debiti verso fornitori,0.00,31.39,Fattura Amazon (allestimento),documento
+2025-10-07,33,1200,IVA a credito (periodo),5.66,0.00,Fattura Amazon (allestimento),documento
+2025-10-07,34,2200,Debiti verso fornitori,31.39,0.00,Pagamento Amazon,dedotto
+2025-10-07,34,1010,Banca c/c,0.00,31.39,Pagamento Amazon,dedotto
+2025-10-07,71,1400,Migliorie su beni di terzi,10000.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-07,71,1200,IVA a credito (periodo),2200.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-07,71,2200,Debiti verso fornitori,0.00,10000.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-07,71,2300,IVA a debito (periodo),0.00,2200.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-07,72,2200,Debiti verso fornitori,10000.00,0.00,Pagamento T.N. Costruzioni,dedotto
+2025-10-07,72,1010,Banca c/c,0.00,10000.00,Pagamento T.N. Costruzioni,dedotto
+2025-10-08,23,1410,"Mobili, arredi e attrezzature",50.59,0.00,Fattura tenulodi (allestimento),documento
+2025-10-08,23,2200,Debiti verso fornitori,0.00,61.72,Fattura tenulodi (allestimento),documento
+2025-10-08,23,1200,IVA a credito (periodo),11.13,0.00,Fattura tenulodi (allestimento),documento
+2025-10-08,24,2200,Debiti verso fornitori,61.72,0.00,Pagamento tenulodi,dedotto
+2025-10-08,24,1010,Banca c/c,0.00,61.72,Pagamento tenulodi,dedotto
+2025-10-08,35,1410,"Mobili, arredi e attrezzature",7.00,0.00,Fattura Amazon (allestimento),documento
+2025-10-08,35,2200,Debiti verso fornitori,0.00,8.54,Fattura Amazon (allestimento),documento
+2025-10-08,35,1200,IVA a credito (periodo),1.54,0.00,Fattura Amazon (allestimento),documento
+2025-10-08,36,2200,Debiti verso fornitori,8.54,0.00,Pagamento Amazon,dedotto
+2025-10-08,36,1010,Banca c/c,0.00,8.54,Pagamento Amazon,dedotto
+2025-10-10,25,1410,"Mobili, arredi e attrezzature",23.27,0.00,Fattura farma services (allestimento),documento
+2025-10-10,25,2200,Debiti verso fornitori,0.00,28.39,Fattura farma services (allestimento),documento
+2025-10-10,25,1200,IVA a credito (periodo),5.12,0.00,Fattura farma services (allestimento),documento
+2025-10-10,26,2200,Debiti verso fornitori,28.39,0.00,Pagamento farma services,dedotto
+2025-10-10,26,1010,Banca c/c,0.00,28.39,Pagamento farma services,dedotto
+2025-10-11,27,1410,"Mobili, arredi e attrezzature",65.25,0.00,Fattura Bricoman (allestimento),documento
+2025-10-11,27,2200,Debiti verso fornitori,0.00,79.61,Fattura Bricoman (allestimento),documento
+2025-10-11,27,1200,IVA a credito (periodo),14.36,0.00,Fattura Bricoman (allestimento),documento
+2025-10-11,28,2200,Debiti verso fornitori,79.61,0.00,Pagamento Bricoman,dedotto
+2025-10-11,28,1010,Banca c/c,0.00,79.61,Pagamento Bricoman,dedotto
+2025-10-14,29,5040,Commercialista e consulenze,249.50,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-14,29,2200,Debiti verso fornitori,0.00,304.39,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-14,29,1200,IVA a credito (periodo),54.89,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2025-10-14,30,2200,Debiti verso fornitori,304.39,0.00,Pagamento Accounting Hub (Fido),dedotto
+2025-10-14,30,1010,Banca c/c,0.00,304.39,Pagamento Accounting Hub (Fido),dedotto
+2025-10-14,37,5040,Commercialista e consulenze,249.50,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-14,37,2200,Debiti verso fornitori,0.00,304.39,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-14,37,1200,IVA a credito (periodo),54.89,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2025-10-14,38,2200,Debiti verso fornitori,304.39,0.00,Pagamento Servizi Innovativi (Fido),dedotto
+2025-10-14,38,1010,Banca c/c,0.00,304.39,Pagamento Servizi Innovativi (Fido),dedotto
+2025-10-15,5,1010,Banca c/c,14700.00,0.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-10-15,5,2100,Finanziamenti soci infruttiferi,0.00,14700.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-10-17,39,1410,"Mobili, arredi e attrezzature",196.07,0.00,Fattura Bricoman (allestimento),documento
+2025-10-17,39,2200,Debiti verso fornitori,0.00,239.20,Fattura Bricoman (allestimento),documento
+2025-10-17,39,1200,IVA a credito (periodo),43.13,0.00,Fattura Bricoman (allestimento),documento
+2025-10-17,40,2200,Debiti verso fornitori,239.20,0.00,Pagamento Bricoman,dedotto
+2025-10-17,40,1010,Banca c/c,0.00,239.20,Pagamento Bricoman,dedotto
+2025-10-18,41,5040,Commercialista e consulenze,45.00,0.00,Fattura FOR-P04 (consulenze),documento
+2025-10-18,41,2200,Debiti verso fornitori,0.00,54.90,Fattura FOR-P04 (consulenze),documento
+2025-10-18,41,1200,IVA a credito (periodo),9.90,0.00,Fattura FOR-P04 (consulenze),documento
+2025-10-18,42,2200,Debiti verso fornitori,54.90,0.00,Pagamento FOR-P04,dedotto
+2025-10-18,42,1010,Banca c/c,0.00,54.90,Pagamento FOR-P04,dedotto
+2025-10-18,43,1410,"Mobili, arredi e attrezzature",16.27,0.00,Fattura AD Arte Digitale (allestimento),documento
+2025-10-18,43,2200,Debiti verso fornitori,0.00,19.85,Fattura AD Arte Digitale (allestimento),documento
+2025-10-18,43,1200,IVA a credito (periodo),3.58,0.00,Fattura AD Arte Digitale (allestimento),documento
+2025-10-18,44,2200,Debiti verso fornitori,19.85,0.00,Pagamento AD Arte Digitale,dedotto
+2025-10-18,44,1010,Banca c/c,0.00,19.85,Pagamento AD Arte Digitale,dedotto
+2025-10-20,45,5090,Altri costi,200.00,0.00,Fattura Extra Traslochi (traslochi),documento
+2025-10-20,45,2200,Debiti verso fornitori,0.00,244.00,Fattura Extra Traslochi (traslochi),documento
+2025-10-20,45,1200,IVA a credito (periodo),44.00,0.00,Fattura Extra Traslochi (traslochi),documento
+2025-10-20,46,2200,Debiti verso fornitori,244.00,0.00,Pagamento Extra Traslochi,dedotto
+2025-10-20,46,1010,Banca c/c,0.00,244.00,Pagamento Extra Traslochi,dedotto
+2025-10-20,47,1410,"Mobili, arredi e attrezzature",57.27,0.00,Fattura Beper (allestimento),documento
+2025-10-20,47,2200,Debiti verso fornitori,0.00,69.87,Fattura Beper (allestimento),documento
+2025-10-20,47,1200,IVA a credito (periodo),12.60,0.00,Fattura Beper (allestimento),documento
+2025-10-20,48,2200,Debiti verso fornitori,69.87,0.00,Pagamento Beper,dedotto
+2025-10-20,48,1010,Banca c/c,0.00,69.87,Pagamento Beper,dedotto
+2025-10-21,73,1400,Migliorie su beni di terzi,10000.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-21,73,1200,IVA a credito (periodo),2200.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-21,73,2200,Debiti verso fornitori,0.00,10000.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-21,73,2300,IVA a debito (periodo),0.00,2200.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-10-21,74,2200,Debiti verso fornitori,10000.00,0.00,Pagamento T.N. Costruzioni,dedotto
+2025-10-21,74,1010,Banca c/c,0.00,10000.00,Pagamento T.N. Costruzioni,dedotto
+2025-10-23,49,1410,"Mobili, arredi e attrezzature",52.23,0.00,Fattura tenulodi (allestimento),documento
+2025-10-23,49,2200,Debiti verso fornitori,0.00,63.72,Fattura tenulodi (allestimento),documento
+2025-10-23,49,1200,IVA a credito (periodo),11.49,0.00,Fattura tenulodi (allestimento),documento
+2025-10-23,50,2200,Debiti verso fornitori,63.72,0.00,Pagamento tenulodi,dedotto
+2025-10-23,50,1010,Banca c/c,0.00,63.72,Pagamento tenulodi,dedotto
+2025-10-23,51,1410,"Mobili, arredi e attrezzature",43.44,0.00,Fattura Brico io (allestimento),documento
+2025-10-23,51,2200,Debiti verso fornitori,0.00,53.00,Fattura Brico io (allestimento),documento
+2025-10-23,51,1200,IVA a credito (periodo),9.56,0.00,Fattura Brico io (allestimento),documento
+2025-10-23,52,2200,Debiti verso fornitori,53.00,0.00,Pagamento Brico io,dedotto
+2025-10-23,52,1010,Banca c/c,0.00,53.00,Pagamento Brico io,dedotto
+2025-10-23,53,1410,"Mobili, arredi e attrezzature",20.43,0.00,Fattura Action (allestimento),documento
+2025-10-23,53,2200,Debiti verso fornitori,0.00,24.92,Fattura Action (allestimento),documento
+2025-10-23,53,1200,IVA a credito (periodo),4.49,0.00,Fattura Action (allestimento),documento
+2025-10-23,54,2200,Debiti verso fornitori,24.92,0.00,Pagamento Action,dedotto
+2025-10-23,54,1010,Banca c/c,0.00,24.92,Pagamento Action,dedotto
+2025-10-24,55,1410,"Mobili, arredi e attrezzature",505.64,0.00,Fattura Ikea (allestimento),documento
+2025-10-24,55,2200,Debiti verso fornitori,0.00,616.88,Fattura Ikea (allestimento),documento
+2025-10-24,55,1200,IVA a credito (periodo),111.24,0.00,Fattura Ikea (allestimento),documento
+2025-10-24,56,2200,Debiti verso fornitori,616.88,0.00,Pagamento Ikea,dedotto
+2025-10-24,56,1010,Banca c/c,0.00,616.88,Pagamento Ikea,dedotto
+2025-10-24,57,1410,"Mobili, arredi e attrezzature",13.85,0.00,Fattura Brico io (allestimento),documento
+2025-10-24,57,2200,Debiti verso fornitori,0.00,16.90,Fattura Brico io (allestimento),documento
+2025-10-24,57,1200,IVA a credito (periodo),3.05,0.00,Fattura Brico io (allestimento),documento
+2025-10-24,58,2200,Debiti verso fornitori,16.90,0.00,Pagamento Brico io,dedotto
+2025-10-24,58,1010,Banca c/c,0.00,16.90,Pagamento Brico io,dedotto
+2025-10-25,59,1410,"Mobili, arredi e attrezzature",75.34,0.00,Fattura Leroy Merlin (allestimento),documento
+2025-10-25,59,2200,Debiti verso fornitori,0.00,91.91,Fattura Leroy Merlin (allestimento),documento
+2025-10-25,59,1200,IVA a credito (periodo),16.57,0.00,Fattura Leroy Merlin (allestimento),documento
+2025-10-25,60,2200,Debiti verso fornitori,91.91,0.00,Pagamento Leroy Merlin,dedotto
+2025-10-25,60,1010,Banca c/c,0.00,91.91,Pagamento Leroy Merlin,dedotto
+2025-10-28,61,1410,"Mobili, arredi e attrezzature",38.36,0.00,Fattura Brico io (allestimento),documento
+2025-10-28,61,2200,Debiti verso fornitori,0.00,46.80,Fattura Brico io (allestimento),documento
+2025-10-28,61,1200,IVA a credito (periodo),8.44,0.00,Fattura Brico io (allestimento),documento
+2025-10-28,62,2200,Debiti verso fornitori,46.80,0.00,Pagamento Brico io,dedotto
+2025-10-28,62,1010,Banca c/c,0.00,46.80,Pagamento Brico io,dedotto
+2025-10-30,63,1410,"Mobili, arredi e attrezzature",11.32,0.00,Fattura Amazon (allestimento),documento
+2025-10-30,63,2200,Debiti verso fornitori,0.00,13.81,Fattura Amazon (allestimento),documento
+2025-10-30,63,1200,IVA a credito (periodo),2.49,0.00,Fattura Amazon (allestimento),documento
+2025-10-30,64,2200,Debiti verso fornitori,13.81,0.00,Pagamento Amazon,dedotto
+2025-10-30,64,1010,Banca c/c,0.00,13.81,Pagamento Amazon,dedotto
+2025-10-30,65,1410,"Mobili, arredi e attrezzature",40.91,0.00,Fattura Agrifer (allestimento),documento
+2025-10-30,65,2200,Debiti verso fornitori,0.00,49.91,Fattura Agrifer (allestimento),documento
+2025-10-30,65,1200,IVA a credito (periodo),9.00,0.00,Fattura Agrifer (allestimento),documento
+2025-10-30,66,2200,Debiti verso fornitori,49.91,0.00,Pagamento Agrifer,dedotto
+2025-10-30,66,1010,Banca c/c,0.00,49.91,Pagamento Agrifer,dedotto
+2025-10-30,67,1410,"Mobili, arredi e attrezzature",73.65,0.00,Fattura Ikea (allestimento),documento
+2025-10-30,67,2200,Debiti verso fornitori,0.00,89.85,Fattura Ikea (allestimento),documento
+2025-10-30,67,1200,IVA a credito (periodo),16.20,0.00,Fattura Ikea (allestimento),documento
+2025-10-30,68,2200,Debiti verso fornitori,89.85,0.00,Pagamento Ikea,dedotto
+2025-10-30,68,1010,Banca c/c,0.00,89.85,Pagamento Ikea,dedotto
+2025-10-30,69,1410,"Mobili, arredi e attrezzature",12.64,0.00,Fattura Amazon (allestimento),documento
+2025-10-30,69,2200,Debiti verso fornitori,0.00,15.42,Fattura Amazon (allestimento),documento
+2025-10-30,69,1200,IVA a credito (periodo),2.78,0.00,Fattura Amazon (allestimento),documento
+2025-10-30,70,2200,Debiti verso fornitori,15.42,0.00,Pagamento Amazon,dedotto
+2025-10-30,70,1010,Banca c/c,0.00,15.42,Pagamento Amazon,dedotto
+2025-11-01,75,5090,Altri costi,36.28,0.00,Fattura Esselunga (varie),documento
+2025-11-01,75,2200,Debiti verso fornitori,0.00,43.34,Fattura Esselunga (varie),documento
+2025-11-01,75,1200,IVA a credito (periodo),7.06,0.00,Fattura Esselunga (varie),documento
+2025-11-01,76,2200,Debiti verso fornitori,43.34,0.00,Pagamento Esselunga,dedotto
+2025-11-01,76,1010,Banca c/c,0.00,43.34,Pagamento Esselunga,dedotto
+2025-11-01,77,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2025-11-01,77,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2025-11-01,77,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2025-11-01,78,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2025-11-01,78,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2025-11-01,79,1410,"Mobili, arredi e attrezzature",62.95,0.00,Fattura OBI (allestimento),documento
+2025-11-01,79,2200,Debiti verso fornitori,0.00,76.80,Fattura OBI (allestimento),documento
+2025-11-01,79,1200,IVA a credito (periodo),13.85,0.00,Fattura OBI (allestimento),documento
+2025-11-01,80,2200,Debiti verso fornitori,76.80,0.00,Pagamento OBI,dedotto
+2025-11-01,80,1010,Banca c/c,0.00,76.80,Pagamento OBI,dedotto
+2025-11-01,83,5090,Altri costi,26.93,0.00,Fattura Ciesseci (varie),documento
+2025-11-01,83,2200,Debiti verso fornitori,0.00,32.85,Fattura Ciesseci (varie),documento
+2025-11-01,83,1200,IVA a credito (periodo),5.92,0.00,Fattura Ciesseci (varie),documento
+2025-11-01,84,2200,Debiti verso fornitori,32.85,0.00,Pagamento Ciesseci,dedotto
+2025-11-01,84,1010,Banca c/c,0.00,32.85,Pagamento Ciesseci,dedotto
+2025-11-02,81,5090,Altri costi,68.26,0.00,Fattura Esselunga (varie),documento
+2025-11-02,81,2200,Debiti verso fornitori,0.00,80.85,Fattura Esselunga (varie),documento
+2025-11-02,81,1200,IVA a credito (periodo),12.59,0.00,Fattura Esselunga (varie),documento
+2025-11-02,82,2200,Debiti verso fornitori,80.85,0.00,Pagamento Esselunga,dedotto
+2025-11-02,82,1010,Banca c/c,0.00,80.85,Pagamento Esselunga,dedotto
+2025-11-02,85,5090,Altri costi,-1.27,0.00,Fattura Esselunga (varie),documento
+2025-11-02,85,2200,Debiti verso fornitori,0.00,-1.55,Fattura Esselunga (varie),documento
+2025-11-02,85,1200,IVA a credito (periodo),-0.28,0.00,Fattura Esselunga (varie),documento
+2025-11-02,86,2200,Debiti verso fornitori,-1.55,0.00,Pagamento Esselunga,dedotto
+2025-11-02,86,1010,Banca c/c,0.00,-1.55,Pagamento Esselunga,dedotto
+2025-11-03,87,5090,Altri costi,490.00,0.00,Fattura Extra Traslochi (traslochi),documento
+2025-11-03,87,2200,Debiti verso fornitori,0.00,597.80,Fattura Extra Traslochi (traslochi),documento
+2025-11-03,87,1200,IVA a credito (periodo),107.80,0.00,Fattura Extra Traslochi (traslochi),documento
+2025-11-03,88,2200,Debiti verso fornitori,597.80,0.00,Pagamento Extra Traslochi,dedotto
+2025-11-03,88,1010,Banca c/c,0.00,597.80,Pagamento Extra Traslochi,dedotto
+2025-11-03,89,5000,Affitto passivo,2184.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-11-03,89,2200,Debiti verso fornitori,0.00,2624.00,Fattura LA.SER SRL (affitto),documento
+2025-11-03,89,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-11-03,90,2200,Debiti verso fornitori,2624.00,0.00,Pagamento LA.SER SRL,dedotto
+2025-11-03,90,1010,Banca c/c,0.00,2624.00,Pagamento LA.SER SRL,dedotto
+2025-11-05,6,1010,Banca c/c,14700.00,0.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-11-05,6,2100,Finanziamenti soci infruttiferi,0.00,14700.00,Finanziamento soci deliberato; versamento in banca non documentato,dedotto
+2025-11-05,91,5010,Pulizie,302.00,0.00,Fattura FOR-PUL (pulizie),documento
+2025-11-05,91,2200,Debiti verso fornitori,0.00,302.00,Fattura FOR-PUL (pulizie),documento
+2025-11-05,92,2200,Debiti verso fornitori,302.00,0.00,Pagamento FOR-PUL,dedotto
+2025-11-05,92,1010,Banca c/c,0.00,302.00,Pagamento FOR-PUL,dedotto
+2025-11-06,97,1410,"Mobili, arredi e attrezzature",16.17,0.00,Fattura FOR-A01 (allestimento),documento
+2025-11-06,97,2200,Debiti verso fornitori,0.00,19.73,Fattura FOR-A01 (allestimento),documento
+2025-11-06,97,1200,IVA a credito (periodo),3.56,0.00,Fattura FOR-A01 (allestimento),documento
+2025-11-06,98,2200,Debiti verso fornitori,19.73,0.00,Pagamento FOR-A01,dedotto
+2025-11-06,98,1010,Banca c/c,0.00,19.73,Pagamento FOR-A01,dedotto
+2025-11-07,93,1410,"Mobili, arredi e attrezzature",10.02,0.00,Fattura Action (allestimento),documento
+2025-11-07,93,2200,Debiti verso fornitori,0.00,12.22,Fattura Action (allestimento),documento
+2025-11-07,93,1200,IVA a credito (periodo),2.20,0.00,Fattura Action (allestimento),documento
+2025-11-07,94,2200,Debiti verso fornitori,12.22,0.00,Pagamento Action,dedotto
+2025-11-07,94,1010,Banca c/c,0.00,12.22,Pagamento Action,dedotto
+2025-11-07,105,1400,Migliorie su beni di terzi,15400.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-11-07,105,1200,IVA a credito (periodo),3388.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-11-07,105,2200,Debiti verso fornitori,0.00,15400.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-11-07,105,2300,IVA a debito (periodo),0.00,3388.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-11-07,106,2200,Debiti verso fornitori,15400.00,0.00,Pagamento T.N. Costruzioni,dedotto
+2025-11-07,106,1010,Banca c/c,0.00,15400.00,Pagamento T.N. Costruzioni,dedotto
+2025-11-10,95,5090,Altri costi,50.00,0.00,Fattura Tipografia Terreni (varie),documento
+2025-11-10,95,2200,Debiti verso fornitori,0.00,61.00,Fattura Tipografia Terreni (varie),documento
+2025-11-10,95,1200,IVA a credito (periodo),11.00,0.00,Fattura Tipografia Terreni (varie),documento
+2025-11-10,96,2200,Debiti verso fornitori,61.00,0.00,Pagamento Tipografia Terreni,dedotto
+2025-11-10,96,1010,Banca c/c,0.00,61.00,Pagamento Tipografia Terreni,dedotto
+2025-11-15,103,5040,Commercialista e consulenze,1198.08,0.00,Fattura FOR-P03 (consulenze),documento
+2025-11-15,103,2200,Debiti verso fornitori,0.00,1198.08,Fattura FOR-P03 (consulenze),documento
+2025-11-15,104,2200,Debiti verso fornitori,1198.08,0.00,Pagamento FOR-P03,dedotto
+2025-11-15,104,1010,Banca c/c,0.00,1198.08,Pagamento FOR-P03,dedotto
+2025-11-18,101,5020,Energia,133.40,0.00,Fattura Eni gas e luce (energia),documento
+2025-11-18,101,2200,Debiti verso fornitori,0.00,162.75,Fattura Eni gas e luce (energia),documento
+2025-11-18,101,1200,IVA a credito (periodo),29.35,0.00,Fattura Eni gas e luce (energia),documento
+2025-11-18,102,2200,Debiti verso fornitori,162.75,0.00,Pagamento Eni gas e luce,dedotto
+2025-11-18,102,1010,Banca c/c,0.00,162.75,Pagamento Eni gas e luce,dedotto
+2025-11-20,99,1410,"Mobili, arredi e attrezzature",24.09,0.00,Fattura Amazon (allestimento),documento
+2025-11-20,99,2200,Debiti verso fornitori,0.00,29.39,Fattura Amazon (allestimento),documento
+2025-11-20,99,1200,IVA a credito (periodo),5.30,0.00,Fattura Amazon (allestimento),documento
+2025-11-20,100,2200,Debiti verso fornitori,29.39,0.00,Pagamento Amazon,dedotto
+2025-11-20,100,1010,Banca c/c,0.00,29.39,Pagamento Amazon,dedotto
+2025-11-30,211,1100,Crediti verso clienti,799.10,0.00,Fattura n. 2/2025 a SOC-VG,documento
+2025-11-30,211,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 2/2025 a SOC-VG,documento
+2025-11-30,211,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 2/2025 a SOC-VG,documento
+2025-11-30,212,1010,Banca c/c,799.10,0.00,Incasso da SOC-VG,dedotto
+2025-11-30,212,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-VG,dedotto
+2025-11-30,213,1100,Crediti verso clienti,799.10,0.00,Fattura n. 3/2025 a SOC-EB,documento
+2025-11-30,213,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 3/2025 a SOC-EB,documento
+2025-11-30,213,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 3/2025 a SOC-EB,documento
+2025-11-30,214,1010,Banca c/c,799.10,0.00,Incasso da SOC-EB,dedotto
+2025-11-30,214,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-EB,dedotto
+2025-12-01,107,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-12-01,107,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2025-12-01,107,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2025-12-01,108,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2025-12-01,108,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2025-12-01,109,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2025-12-01,109,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2025-12-01,109,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2025-12-01,110,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2025-12-01,110,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2025-12-01,111,5040,Commercialista e consulenze,1892.00,0.00,Fattura FOR-P02 (consulenze),documento
+2025-12-01,111,2200,Debiti verso fornitori,0.00,1892.00,Fattura FOR-P02 (consulenze),documento
+2025-12-01,112,2200,Debiti verso fornitori,1892.00,0.00,Pagamento FOR-P02,dedotto
+2025-12-01,112,1010,Banca c/c,0.00,1892.00,Pagamento FOR-P02,dedotto
+2025-12-01,115,5030,Internet e software,44.91,0.00,Fattura Fastweb (internet),documento
+2025-12-01,115,2200,Debiti verso fornitori,0.00,54.79,Fattura Fastweb (internet),documento
+2025-12-01,115,1200,IVA a credito (periodo),9.88,0.00,Fattura Fastweb (internet),documento
+2025-12-01,116,2200,Debiti verso fornitori,54.79,0.00,Pagamento Fastweb,dedotto
+2025-12-01,116,1010,Banca c/c,0.00,54.79,Pagamento Fastweb,dedotto
+2025-12-01,215,1100,Crediti verso clienti,799.10,0.00,Fattura n. 4/2025 a SOC-RM,documento
+2025-12-01,215,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 4/2025 a SOC-RM,documento
+2025-12-01,215,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 4/2025 a SOC-RM,documento
+2025-12-01,216,1010,Banca c/c,799.10,0.00,Incasso da SOC-RM,dedotto
+2025-12-01,216,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-RM,dedotto
+2025-12-01,217,1100,Crediti verso clienti,36.00,0.00,Fattura n. 5/2025 a CLI-01,documento
+2025-12-01,217,4000,Ricavi da servizi spazi,0.00,29.51,Fattura n. 5/2025 a CLI-01,documento
+2025-12-01,217,2300,IVA a debito (periodo),0.00,6.49,Fattura n. 5/2025 a CLI-01,documento
+2025-12-01,218,1010,Banca c/c,36.00,0.00,Incasso da CLI-01,dedotto
+2025-12-01,218,1100,Crediti verso clienti,0.00,36.00,Incasso da CLI-01,dedotto
+2025-12-01,219,1100,Crediti verso clienti,48.01,0.00,Fattura n. 6/2025 a CLI-02,documento
+2025-12-01,219,4000,Ricavi da servizi spazi,0.00,39.35,Fattura n. 6/2025 a CLI-02,documento
+2025-12-01,219,2300,IVA a debito (periodo),0.00,8.66,Fattura n. 6/2025 a CLI-02,documento
+2025-12-01,220,1010,Banca c/c,48.01,0.00,Incasso da CLI-02,dedotto
+2025-12-01,220,1100,Crediti verso clienti,0.00,48.01,Incasso da CLI-02,dedotto
+2025-12-03,113,5010,Pulizie,452.00,0.00,Fattura FOR-PUL (pulizie),documento
+2025-12-03,113,2200,Debiti verso fornitori,0.00,452.00,Fattura FOR-PUL (pulizie),documento
+2025-12-03,114,2200,Debiti verso fornitori,452.00,0.00,Pagamento FOR-PUL,dedotto
+2025-12-03,114,1010,Banca c/c,0.00,452.00,Pagamento FOR-PUL,dedotto
+2025-12-12,117,5090,Altri costi,60.62,0.00,Fattura Esselunga (varie),documento
+2025-12-12,117,2200,Debiti verso fornitori,0.00,68.38,Fattura Esselunga (varie),documento
+2025-12-12,117,1200,IVA a credito (periodo),7.76,0.00,Fattura Esselunga (varie),documento
+2025-12-12,118,2200,Debiti verso fornitori,68.38,0.00,Pagamento Esselunga,dedotto
+2025-12-12,118,1010,Banca c/c,0.00,68.38,Pagamento Esselunga,dedotto
+2025-12-12,119,1410,"Mobili, arredi e attrezzature",8.51,0.00,Fattura Action (allestimento),documento
+2025-12-12,119,2200,Debiti verso fornitori,0.00,10.38,Fattura Action (allestimento),documento
+2025-12-12,119,1200,IVA a credito (periodo),1.87,0.00,Fattura Action (allestimento),documento
+2025-12-12,120,2200,Debiti verso fornitori,10.38,0.00,Pagamento Action,dedotto
+2025-12-12,120,1010,Banca c/c,0.00,10.38,Pagamento Action,dedotto
+2025-12-12,123,5020,Energia,328.34,0.00,Fattura Eni gas e luce (energia),documento
+2025-12-12,123,2200,Debiti verso fornitori,0.00,400.57,Fattura Eni gas e luce (energia),documento
+2025-12-12,123,1200,IVA a credito (periodo),72.23,0.00,Fattura Eni gas e luce (energia),documento
+2025-12-12,124,2200,Debiti verso fornitori,400.57,0.00,Pagamento Eni gas e luce,dedotto
+2025-12-12,124,1010,Banca c/c,0.00,400.57,Pagamento Eni gas e luce,dedotto
+2025-12-12,221,1100,Crediti verso clienti,72.00,0.00,Fattura n. 7/2025 a CLI-03,documento
+2025-12-12,221,4000,Ricavi da servizi spazi,0.00,59.02,Fattura n. 7/2025 a CLI-03,documento
+2025-12-12,221,2300,IVA a debito (periodo),0.00,12.98,Fattura n. 7/2025 a CLI-03,documento
+2025-12-12,222,1010,Banca c/c,72.00,0.00,Incasso da CLI-03,dedotto
+2025-12-12,222,1100,Crediti verso clienti,0.00,72.00,Incasso da CLI-03,dedotto
+2025-12-14,121,5090,Altri costi,47.15,0.00,Fattura Esselunga (varie),documento
+2025-12-14,121,2200,Debiti verso fornitori,0.00,53.46,Fattura Esselunga (varie),documento
+2025-12-14,121,1200,IVA a credito (periodo),6.31,0.00,Fattura Esselunga (varie),documento
+2025-12-14,122,2200,Debiti verso fornitori,53.46,0.00,Pagamento Esselunga,dedotto
+2025-12-14,122,1010,Banca c/c,0.00,53.46,Pagamento Esselunga,dedotto
+2025-12-18,223,1100,Crediti verso clienti,99.00,0.00,Fattura n. 8/2025 a CLI-04,documento
+2025-12-18,223,4000,Ricavi da servizi spazi,0.00,81.15,Fattura n. 8/2025 a CLI-04,documento
+2025-12-18,223,2300,IVA a debito (periodo),0.00,17.85,Fattura n. 8/2025 a CLI-04,documento
+2025-12-18,224,1010,Banca c/c,99.00,0.00,Incasso da CLI-04,dedotto
+2025-12-18,224,1100,Crediti verso clienti,0.00,99.00,Incasso da CLI-04,dedotto
+2025-12-19,225,1100,Crediti verso clienti,799.10,0.00,Fattura n. 9/2025 a SOC-RM,documento
+2025-12-19,225,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 9/2025 a SOC-RM,documento
+2025-12-19,225,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 9/2025 a SOC-RM,documento
+2025-12-19,226,1010,Banca c/c,799.10,0.00,Incasso da SOC-RM,dedotto
+2025-12-19,226,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-RM,dedotto
+2025-12-22,125,1400,Migliorie su beni di terzi,500.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-12-22,125,1200,IVA a credito (periodo),110.00,0.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-12-22,125,2200,Debiti verso fornitori,0.00,500.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-12-22,125,2300,IVA a debito (periodo),0.00,110.00,Fattura T.N. Costruzioni (lavori_edili) – reverse charge,documento
+2025-12-22,126,2200,Debiti verso fornitori,500.00,0.00,Pagamento T.N. Costruzioni,dedotto
+2025-12-22,126,1010,Banca c/c,0.00,500.00,Pagamento T.N. Costruzioni,dedotto
+2025-12-29,227,1100,Crediti verso clienti,799.10,0.00,Fattura n. 10/2025 a SOC-EB,documento
+2025-12-29,227,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 10/2025 a SOC-EB,documento
+2025-12-29,227,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 10/2025 a SOC-EB,documento
+2025-12-29,228,1010,Banca c/c,799.10,0.00,Incasso da SOC-EB,dedotto
+2025-12-29,228,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-EB,dedotto
+2025-12-29,229,1100,Crediti verso clienti,799.10,0.00,Fattura n. 11/2025 a SOC-VG,documento
+2025-12-29,229,4000,Ricavi da servizi spazi,0.00,655.00,Fattura n. 11/2025 a SOC-VG,documento
+2025-12-29,229,2300,IVA a debito (periodo),0.00,144.10,Fattura n. 11/2025 a SOC-VG,documento
+2025-12-29,230,1010,Banca c/c,799.10,0.00,Incasso da SOC-VG,dedotto
+2025-12-29,230,1100,Crediti verso clienti,0.00,799.10,Incasso da SOC-VG,dedotto
+2025-12-30,328,5100,Ammortamenti,1421.86,0.00,"Ammortamento 2025 (vita utile 6 anni, pro rata mensile)",stima
+2025-12-30,328,1490,Fondo ammortamento,0.00,1421.86,"Ammortamento 2025 (vita utile 6 anni, pro rata mensile)",stima
+2025-12-31,325,2300,IVA a debito (periodo),8808.58,0.00,Liquidazione IVA 2025T4,documento
+2025-12-31,325,1200,IVA a credito (periodo),0.00,10587.18,Liquidazione IVA 2025T4,documento
+2025-12-31,325,1210,Erario c/IVA (saldo liquidazioni),1778.60,0.00,Liquidazione IVA 2025T4,documento

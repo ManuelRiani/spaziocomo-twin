@@ -14,6 +14,7 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [costi/](costi/) | struttura dei costi |
 | [fisco/](fisco/) | IVA, parti correlate, scadenze |
 | [finanza/](finanza/) | finanziamenti soci, cassa |
+| [contabilita/](contabilita/) | partita doppia per anno: libro giornale, bilancio di verifica, SP e CE (generata da `scripts/partita_doppia.py`) |
 | [dati/](dati/) | CSV trascritti dai documenti (vedi [dati/README.md](dati/README.md)) |
 | [analisi/](analisi/) | analisi datate |
 | [decisioni/](decisioni/) | registro decisioni |
@@ -28,6 +29,10 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 
 ## Aggiornare i dati
 
-1. Trascrivere i nuovi registri IVA / spese in `scripts/build_dati.py`.
-2. `python3 scripts/build_dati.py`
-3. Verificare i totali con quelli dei registri (vedi [dati/README.md](dati/README.md)).
+Procedura completa in [CLAUDE.md](CLAUDE.md#aggiornamento-dei-dati-procedura-obbligatoria). In breve:
+
+```bash
+python3 scripts/build_dati.py      # CSV dai documenti trascritti
+python3 scripts/verifica.py        # quadratura con i registri IVA
+python3 scripts/partita_doppia.py  # partita doppia di ogni anno (sempre)
+```

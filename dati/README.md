@@ -25,6 +25,7 @@ Acquisti T1 2026: imponibile 9.566,19 / IVA 2.104,58 / non soggetto 1.331,60 (li
 ## Convenzioni
 
 - Le colonne `categoria` e `natura` di `acquisti_registro_iva.csv` sono **[dedotto]**: classificazione fatta da Manuel/Claude in base al nome del fornitore, non presente nei registri.
+- `mese_registro` in `acquisti_registro_iva.csv` è il mese del registro IVA in cui la fattura è annotata (può differire dalla data documento) e determina il trimestre IVA.
 - Le autofatture in reverse charge **non** sono nei ricavi.
 - `non_imponibile` comprende i compensi dei forfettari, i bolli e gli importi esclusi art. 15.
 - `natura = avvio_investimento` comprende lavori, allestimento, traslochi e consulenze del 2025 (più FOR-P01, registrata a gennaio).

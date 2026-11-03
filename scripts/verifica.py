@@ -26,7 +26,7 @@ for k, v in ATTESI.items():
 # acquisti T1 2026 per mese di registrazione: FOR-P01 (data 2025-12-01) e' registrata a gennaio
 imp = iva = ni = 0.0
 for r in csv.DictReader(open(D / "acquisti_registro_iva.csv")):
-    in_t1 = ("2025-12-31" <= r["data"] < "2026-03-31") or r["fornitore"] == "FOR-P01"
+    in_t1 = "2026-01" <= r["mese_registro"] <= "2026-03"
     if in_t1:
         imp += float(r["imponibile"]); iva += float(r["iva"]); ni += float(r["non_imponibile"])
 for nome, got, v in [("imponibile", imp, 9566.19), ("iva", iva, 2104.58), ("non sogg.", ni, 1331.60)]:

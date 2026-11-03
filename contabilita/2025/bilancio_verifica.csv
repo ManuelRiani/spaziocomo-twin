@@ -1,0 +1,17 @@
+conto,nome,sezione,saldo_dare,saldo_avere
+1010,Banca c/c,SP,4884.23,0.00
+1210,Erario c/IVA (saldo liquidazioni),SP,2115.00,0.00
+1300,Depositi cauzionali,SP,6000.00,0.00
+1400,Migliorie su beni di terzi,SP,35900.00,0.00
+1410,"Mobili, arredi e attrezzature",SP,3734.61,0.00
+1490,Fondo ammortamento,SP,0.00,1421.86
+2000,Capitale sociale,SP,0.00,5000.00
+2100,Finanziamenti soci infruttiferi,SP,0.00,57600.00
+4000,Ricavi da servizi spazi,CE,0.00,4139.03
+5000,Affitto passivo,CE,6184.00,0.00
+5010,Pulizie,CE,754.00,0.00
+5020,Energia,CE,461.74,0.00
+5030,Internet e software,CE,65.31,0.00
+5040,Commercialista e consulenze,CE,4133.08,0.00
+5090,Altri costi,CE,2507.06,0.00
+5100,Ammortamenti,CE,1421.86,0.00

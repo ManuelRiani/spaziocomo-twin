@@ -1,0 +1,440 @@
+data,scrittura,conto,nome_conto,dare,avere,descrizione,evidenza
+2026-01-01,127,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-01-01,127,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-01-01,127,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-01-01,128,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-01-01,128,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-01-01,129,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-01-01,129,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-01-01,129,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-01-01,130,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-01-01,130,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-01-01,137,5040,Commercialista e consulenze,1888.00,0.00,Fattura FOR-P01 (consulenze),documento
+2026-01-01,137,2200,Debiti verso fornitori,0.00,2276.96,Fattura FOR-P01 (consulenze),documento
+2026-01-01,137,1200,IVA a credito (periodo),388.96,0.00,Fattura FOR-P01 (consulenze),documento
+2026-01-01,138,2200,Debiti verso fornitori,2276.96,0.00,Pagamento FOR-P01,dedotto
+2026-01-01,138,1010,Banca c/c,0.00,2276.96,Pagamento FOR-P01,dedotto
+2026-01-05,131,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-01-05,131,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-01-05,131,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-01-05,132,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-01-05,132,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-01-07,133,5010,Pulizie,302.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-01-07,133,2200,Debiti verso fornitori,0.00,302.00,Fattura FOR-PUL (pulizie),documento
+2026-01-07,134,2200,Debiti verso fornitori,302.00,0.00,Pagamento FOR-PUL,dedotto
+2026-01-07,134,1010,Banca c/c,0.00,302.00,Pagamento FOR-PUL,dedotto
+2026-01-17,135,5020,Energia,340.27,0.00,Fattura Eni gas e luce (energia),documento
+2026-01-17,135,2200,Debiti verso fornitori,0.00,415.13,Fattura Eni gas e luce (energia),documento
+2026-01-17,135,1200,IVA a credito (periodo),74.86,0.00,Fattura Eni gas e luce (energia),documento
+2026-01-17,136,2200,Debiti verso fornitori,415.13,0.00,Pagamento Eni gas e luce,dedotto
+2026-01-17,136,1010,Banca c/c,0.00,415.13,Pagamento Eni gas e luce,dedotto
+2026-01-18,231,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 1/2026 a SOC-RM,documento
+2026-01-18,231,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 1/2026 a SOC-RM,documento
+2026-01-18,231,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 1/2026 a SOC-RM,documento
+2026-01-18,232,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-01-18,232,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-01-19,233,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 2/2026 a SOC-VG,documento
+2026-01-19,233,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 2/2026 a SOC-VG,documento
+2026-01-19,233,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 2/2026 a SOC-VG,documento
+2026-01-19,234,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-01-19,234,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-01-19,235,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 3/2026 a SOC-EB,documento
+2026-01-19,235,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 3/2026 a SOC-EB,documento
+2026-01-19,235,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 3/2026 a SOC-EB,documento
+2026-01-19,236,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-01-19,236,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-01-19,237,1100,Crediti verso clienti,60.00,0.00,Fattura n. 4/2026 a CLI-01,documento
+2026-01-19,237,4000,Ricavi da servizi spazi,0.00,49.18,Fattura n. 4/2026 a CLI-01,documento
+2026-01-19,237,2300,IVA a debito (periodo),0.00,10.82,Fattura n. 4/2026 a CLI-01,documento
+2026-01-19,238,1010,Banca c/c,60.00,0.00,Incasso da CLI-01,dedotto
+2026-01-19,238,1100,Crediti verso clienti,0.00,60.00,Incasso da CLI-01,dedotto
+2026-02-01,139,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-02-01,139,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-02-01,139,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-02-01,140,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-02-01,140,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-02-01,145,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-02-01,145,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-02-01,145,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-02-01,146,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-02-01,146,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-02-02,141,5010,Pulizie,452.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-02-02,141,2200,Debiti verso fornitori,0.00,452.00,Fattura FOR-PUL (pulizie),documento
+2026-02-02,142,2200,Debiti verso fornitori,452.00,0.00,Pagamento FOR-PUL,dedotto
+2026-02-02,142,1010,Banca c/c,0.00,452.00,Pagamento FOR-PUL,dedotto
+2026-02-02,143,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-02-02,143,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-02-02,143,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-02-02,144,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-02-02,144,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-02-04,239,1100,Crediti verso clienti,72.00,0.00,Fattura n. 5/2026 a CLI-01,documento
+2026-02-04,239,4000,Ricavi da servizi spazi,0.00,59.02,Fattura n. 5/2026 a CLI-01,documento
+2026-02-04,239,2300,IVA a debito (periodo),0.00,12.98,Fattura n. 5/2026 a CLI-01,documento
+2026-02-04,240,1010,Banca c/c,72.00,0.00,Incasso da CLI-01,dedotto
+2026-02-04,240,1100,Crediti verso clienti,0.00,72.00,Incasso da CLI-01,dedotto
+2026-02-04,241,1100,Crediti verso clienti,36.00,0.00,Fattura n. 6/2026 a CLI-02,documento
+2026-02-04,241,4000,Ricavi da servizi spazi,0.00,29.51,Fattura n. 6/2026 a CLI-02,documento
+2026-02-04,241,2300,IVA a debito (periodo),0.00,6.49,Fattura n. 6/2026 a CLI-02,documento
+2026-02-04,242,1010,Banca c/c,36.00,0.00,Incasso da CLI-02,dedotto
+2026-02-04,242,1100,Crediti verso clienti,0.00,36.00,Incasso da CLI-02,dedotto
+2026-02-15,317,5080,Assicurazioni,238.75,0.00,assicurazione (foglio spese),documento
+2026-02-15,317,1010,Banca c/c,0.00,238.75,assicurazione (foglio spese),documento
+2026-02-15,318,5090,Altri costi,116.70,0.00,inail (foglio spese),documento
+2026-02-15,318,1010,Banca c/c,0.00,116.70,inail (foglio spese),documento
+2026-02-17,147,5020,Energia,537.09,0.00,Fattura Eni gas e luce (energia),documento
+2026-02-17,147,2200,Debiti verso fornitori,0.00,655.25,Fattura Eni gas e luce (energia),documento
+2026-02-17,147,1200,IVA a credito (periodo),118.16,0.00,Fattura Eni gas e luce (energia),documento
+2026-02-17,148,2200,Debiti verso fornitori,655.25,0.00,Pagamento Eni gas e luce,dedotto
+2026-02-17,148,1010,Banca c/c,0.00,655.25,Pagamento Eni gas e luce,dedotto
+2026-02-27,243,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 7/2026 a SOC-EB,documento
+2026-02-27,243,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 7/2026 a SOC-EB,documento
+2026-02-27,243,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 7/2026 a SOC-EB,documento
+2026-02-27,244,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-02-27,244,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-02-27,245,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 8/2026 a SOC-VG,documento
+2026-02-27,245,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 8/2026 a SOC-VG,documento
+2026-02-27,245,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 8/2026 a SOC-VG,documento
+2026-02-27,246,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-02-27,246,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-02-27,247,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 9/2026 a SOC-RM,documento
+2026-02-27,247,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 9/2026 a SOC-RM,documento
+2026-02-27,247,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 9/2026 a SOC-RM,documento
+2026-02-27,248,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-02-27,248,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-02-27,249,1100,Crediti verso clienti,362.00,0.00,Fattura n. 10/2026 a CLI-02,documento
+2026-02-27,249,4000,Ricavi da servizi spazi,0.00,296.72,Fattura n. 10/2026 a CLI-02,documento
+2026-02-27,249,2300,IVA a debito (periodo),0.00,65.28,Fattura n. 10/2026 a CLI-02,documento
+2026-02-27,250,1010,Banca c/c,362.00,0.00,Incasso da CLI-02,dedotto
+2026-02-27,250,1100,Crediti verso clienti,0.00,362.00,Incasso da CLI-02,dedotto
+2026-02-28,251,1100,Crediti verso clienti,354.00,0.00,Fattura n. 11/2026 a CLI-01,documento
+2026-02-28,251,4000,Ricavi da servizi spazi,0.00,290.16,Fattura n. 11/2026 a CLI-01,documento
+2026-02-28,251,2300,IVA a debito (periodo),0.00,63.84,Fattura n. 11/2026 a CLI-01,documento
+2026-02-28,252,1010,Banca c/c,354.00,0.00,Incasso da CLI-01,dedotto
+2026-02-28,252,1100,Crediti verso clienti,0.00,354.00,Incasso da CLI-01,dedotto
+2026-03-01,151,5040,Commercialista e consulenze,249.50,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-03-01,151,2200,Debiti verso fornitori,0.00,304.39,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-03-01,151,1200,IVA a credito (periodo),54.89,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-03-01,152,2200,Debiti verso fornitori,304.39,0.00,Pagamento Accounting Hub (Fido),dedotto
+2026-03-01,152,1010,Banca c/c,0.00,304.39,Pagamento Accounting Hub (Fido),dedotto
+2026-03-01,153,5040,Commercialista e consulenze,249.50,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-03-01,153,2200,Debiti verso fornitori,0.00,304.39,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-03-01,153,1200,IVA a credito (periodo),54.89,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-03-01,154,2200,Debiti verso fornitori,304.39,0.00,Pagamento Servizi Innovativi (Fido),dedotto
+2026-03-01,154,1010,Banca c/c,0.00,304.39,Pagamento Servizi Innovativi (Fido),dedotto
+2026-03-01,155,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-03-01,155,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-03-01,155,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-03-01,156,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-03-01,156,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-03-01,157,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-03-01,157,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-03-01,157,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-03-01,158,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-03-01,158,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-03-02,149,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-03-02,149,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-03-02,149,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-03-02,150,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-03-02,150,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-03-03,159,5010,Pulizie,452.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-03-03,159,2200,Debiti verso fornitori,0.00,452.00,Fattura FOR-PUL (pulizie),documento
+2026-03-03,160,2200,Debiti verso fornitori,452.00,0.00,Pagamento FOR-PUL,dedotto
+2026-03-03,160,1010,Banca c/c,0.00,452.00,Pagamento FOR-PUL,dedotto
+2026-03-04,253,1100,Crediti verso clienti,264.00,0.00,Fattura n. 12/2026 a CLI-03,documento
+2026-03-04,253,4000,Ricavi da servizi spazi,0.00,216.39,Fattura n. 12/2026 a CLI-03,documento
+2026-03-04,253,2300,IVA a debito (periodo),0.00,47.61,Fattura n. 12/2026 a CLI-03,documento
+2026-03-04,254,1010,Banca c/c,264.00,0.00,Incasso da CLI-03,dedotto
+2026-03-04,254,1100,Crediti verso clienti,0.00,264.00,Incasso da CLI-03,dedotto
+2026-03-09,255,1100,Crediti verso clienti,432.00,0.00,Fattura n. 13/2026 a CLI-04,documento
+2026-03-09,255,4000,Ricavi da servizi spazi,0.00,354.10,Fattura n. 13/2026 a CLI-04,documento
+2026-03-09,255,2300,IVA a debito (periodo),0.00,77.90,Fattura n. 13/2026 a CLI-04,documento
+2026-03-09,256,1010,Banca c/c,432.00,0.00,Incasso da CLI-04,dedotto
+2026-03-09,256,1100,Crediti verso clienti,0.00,432.00,Incasso da CLI-04,dedotto
+2026-03-15,319,5070,"Imposte, tasse e diritti",309.87,0.00,libri_sociali (foglio spese),documento
+2026-03-15,319,1010,Banca c/c,0.00,309.87,libri_sociali (foglio spese),documento
+2026-03-17,161,5020,Energia,326.58,0.00,Fattura Eni gas e luce (energia),documento
+2026-03-17,161,2200,Debiti verso fornitori,0.00,398.43,Fattura Eni gas e luce (energia),documento
+2026-03-17,161,1200,IVA a credito (periodo),71.85,0.00,Fattura Eni gas e luce (energia),documento
+2026-03-17,162,2200,Debiti verso fornitori,398.43,0.00,Pagamento Eni gas e luce,dedotto
+2026-03-17,162,1010,Banca c/c,0.00,398.43,Pagamento Eni gas e luce,dedotto
+2026-03-24,163,1410,"Mobili, arredi e attrezzature",5.60,0.00,Fattura Amazon (allestimento),documento
+2026-03-24,163,2200,Debiti verso fornitori,0.00,5.60,Fattura Amazon (allestimento),documento
+2026-03-24,164,2200,Debiti verso fornitori,5.60,0.00,Pagamento Amazon,dedotto
+2026-03-24,164,1010,Banca c/c,0.00,5.60,Pagamento Amazon,dedotto
+2026-03-27,257,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 14/2026 a SOC-RM,documento
+2026-03-27,257,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 14/2026 a SOC-RM,documento
+2026-03-27,257,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 14/2026 a SOC-RM,documento
+2026-03-27,258,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-03-27,258,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-03-27,259,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 15/2026 a SOC-VG,documento
+2026-03-27,259,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 15/2026 a SOC-VG,documento
+2026-03-27,259,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 15/2026 a SOC-VG,documento
+2026-03-27,260,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-03-27,260,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-03-27,261,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 16/2026 a SOC-EB,documento
+2026-03-27,261,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 16/2026 a SOC-EB,documento
+2026-03-27,261,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 16/2026 a SOC-EB,documento
+2026-03-27,262,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-03-27,262,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-03-27,263,1100,Crediti verso clienti,240.00,0.00,Fattura n. 17/2026 a CLI-03,documento
+2026-03-27,263,4000,Ricavi da servizi spazi,0.00,196.72,Fattura n. 17/2026 a CLI-03,documento
+2026-03-27,263,2300,IVA a debito (periodo),0.00,43.28,Fattura n. 17/2026 a CLI-03,documento
+2026-03-27,264,1010,Banca c/c,240.00,0.00,Incasso da CLI-03,dedotto
+2026-03-27,264,1100,Crediti verso clienti,0.00,240.00,Incasso da CLI-03,dedotto
+2026-03-27,265,1100,Crediti verso clienti,240.00,0.00,Fattura n. 18/2026 a CLI-02,documento
+2026-03-27,265,4000,Ricavi da servizi spazi,0.00,196.72,Fattura n. 18/2026 a CLI-02,documento
+2026-03-27,265,2300,IVA a debito (periodo),0.00,43.28,Fattura n. 18/2026 a CLI-02,documento
+2026-03-27,266,1010,Banca c/c,240.00,0.00,Incasso da CLI-02,dedotto
+2026-03-27,266,1100,Crediti verso clienti,0.00,240.00,Incasso da CLI-02,dedotto
+2026-03-27,267,1100,Crediti verso clienti,240.00,0.00,Fattura n. 19/2026 a CLI-01,documento
+2026-03-27,267,4000,Ricavi da servizi spazi,0.00,196.72,Fattura n. 19/2026 a CLI-01,documento
+2026-03-27,267,2300,IVA a debito (periodo),0.00,43.28,Fattura n. 19/2026 a CLI-01,documento
+2026-03-27,268,1010,Banca c/c,240.00,0.00,Incasso da CLI-01,dedotto
+2026-03-27,268,1100,Crediti verso clienti,0.00,240.00,Incasso da CLI-01,dedotto
+2026-03-27,269,1100,Crediti verso clienti,240.00,0.00,Fattura n. 20/2026 a CLI-04,documento
+2026-03-27,269,4000,Ricavi da servizi spazi,0.00,196.72,Fattura n. 20/2026 a CLI-04,documento
+2026-03-27,269,2300,IVA a debito (periodo),0.00,43.28,Fattura n. 20/2026 a CLI-04,documento
+2026-03-27,270,1010,Banca c/c,240.00,0.00,Incasso da CLI-04,dedotto
+2026-03-27,270,1100,Crediti verso clienti,0.00,240.00,Incasso da CLI-04,dedotto
+2026-03-31,326,2300,IVA a debito (periodo),2081.01,0.00,Liquidazione IVA 2026T1,documento
+2026-03-31,326,1200,IVA a credito (periodo),0.00,2104.58,Liquidazione IVA 2026T1,documento
+2026-03-31,326,1210,Erario c/IVA (saldo liquidazioni),23.57,0.00,Liquidazione IVA 2026T1,documento
+2026-04-01,165,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-04-01,165,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-04-01,165,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-04-01,166,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-04-01,166,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-04-01,167,5010,Pulizie,452.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-04-01,167,2200,Debiti verso fornitori,0.00,452.00,Fattura FOR-PUL (pulizie),documento
+2026-04-01,168,2200,Debiti verso fornitori,452.00,0.00,Pagamento FOR-PUL,dedotto
+2026-04-01,168,1010,Banca c/c,0.00,452.00,Pagamento FOR-PUL,dedotto
+2026-04-01,169,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-04-01,169,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-04-01,169,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-04-01,170,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-04-01,170,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-04-01,171,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-04-01,171,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-04-01,171,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-04-01,172,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-04-01,172,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-04-15,320,5090,Altri costi,44.98,0.00,inail (foglio spese),documento
+2026-04-15,320,1010,Banca c/c,0.00,44.98,inail (foglio spese),documento
+2026-04-18,173,5020,Energia,224.97,0.00,Fattura Eni gas e luce (energia),documento
+2026-04-18,173,2200,Debiti verso fornitori,0.00,274.46,Fattura Eni gas e luce (energia),documento
+2026-04-18,173,1200,IVA a credito (periodo),49.49,0.00,Fattura Eni gas e luce (energia),documento
+2026-04-18,174,2200,Debiti verso fornitori,274.46,0.00,Pagamento Eni gas e luce,dedotto
+2026-04-18,174,1010,Banca c/c,0.00,274.46,Pagamento Eni gas e luce,dedotto
+2026-04-24,271,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 21/2026 a SOC-EB,documento
+2026-04-24,271,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 21/2026 a SOC-EB,documento
+2026-04-24,271,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 21/2026 a SOC-EB,documento
+2026-04-24,272,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-04-24,272,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-04-24,273,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 22/2026 a SOC-VG,documento
+2026-04-24,273,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 22/2026 a SOC-VG,documento
+2026-04-24,273,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 22/2026 a SOC-VG,documento
+2026-04-24,274,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-04-24,274,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-04-24,275,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 23/2026 a SOC-RM,documento
+2026-04-24,275,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 23/2026 a SOC-RM,documento
+2026-04-24,275,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 23/2026 a SOC-RM,documento
+2026-04-24,276,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-04-24,276,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-04-27,277,1100,Crediti verso clienti,263.91,0.00,Fattura n. 24/2026 a CLI-02,documento
+2026-04-27,277,4000,Ricavi da servizi spazi,0.00,216.32,Fattura n. 24/2026 a CLI-02,documento
+2026-04-27,277,2300,IVA a debito (periodo),0.00,47.59,Fattura n. 24/2026 a CLI-02,documento
+2026-04-27,278,1010,Banca c/c,263.91,0.00,Incasso da CLI-02,dedotto
+2026-04-27,278,1100,Crediti verso clienti,0.00,263.91,Incasso da CLI-02,dedotto
+2026-04-27,279,1100,Crediti verso clienti,237.90,0.00,Fattura n. 25/2026 a CLI-04,documento
+2026-04-27,279,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 25/2026 a CLI-04,documento
+2026-04-27,279,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 25/2026 a CLI-04,documento
+2026-04-27,280,1010,Banca c/c,237.90,0.00,Incasso da CLI-04,dedotto
+2026-04-27,280,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-04,dedotto
+2026-04-27,281,1100,Crediti verso clienti,237.90,0.00,Fattura n. 26/2026 a CLI-03,documento
+2026-04-27,281,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 26/2026 a CLI-03,documento
+2026-04-27,281,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 26/2026 a CLI-03,documento
+2026-04-27,282,1010,Banca c/c,237.90,0.00,Incasso da CLI-03,dedotto
+2026-04-27,282,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-03,dedotto
+2026-04-29,283,1100,Crediti verso clienti,237.90,0.00,Fattura n. 27/2026 a CLI-01,documento
+2026-04-29,283,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 27/2026 a CLI-01,documento
+2026-04-29,283,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 27/2026 a CLI-01,documento
+2026-04-29,284,1010,Banca c/c,237.90,0.00,Incasso da CLI-01,dedotto
+2026-04-29,284,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-01,dedotto
+2026-05-01,175,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-05-01,175,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-05-01,175,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-05-01,176,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-05-01,176,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-05-01,179,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-05-01,179,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-05-01,179,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-05-01,180,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-05-01,180,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-05-03,177,5010,Pulizie,402.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-05-03,177,2200,Debiti verso fornitori,0.00,402.00,Fattura FOR-PUL (pulizie),documento
+2026-05-03,178,2200,Debiti verso fornitori,402.00,0.00,Pagamento FOR-PUL,dedotto
+2026-05-03,178,1010,Banca c/c,0.00,402.00,Pagamento FOR-PUL,dedotto
+2026-05-04,181,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-05-04,181,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-05-04,181,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-05-04,182,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-05-04,182,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-05-15,189,5020,Energia,115.37,0.00,Fattura Eni gas e luce (energia),documento
+2026-05-15,189,2200,Debiti verso fornitori,0.00,140.75,Fattura Eni gas e luce (energia),documento
+2026-05-15,189,1200,IVA a credito (periodo),25.38,0.00,Fattura Eni gas e luce (energia),documento
+2026-05-15,190,2200,Debiti verso fornitori,140.75,0.00,Pagamento Eni gas e luce,dedotto
+2026-05-15,190,1010,Banca c/c,0.00,140.75,Pagamento Eni gas e luce,dedotto
+2026-05-15,321,5070,"Imposte, tasse e diritti",353.00,0.00,tassa_architetto (foglio spese),documento
+2026-05-15,321,1010,Banca c/c,0.00,353.00,tassa_architetto (foglio spese),documento
+2026-05-15,322,5070,"Imposte, tasse e diritti",127.40,0.00,diritti_registro_bilancio (foglio spese),documento
+2026-05-15,322,1010,Banca c/c,0.00,127.40,diritti_registro_bilancio (foglio spese),documento
+2026-05-15,323,5060,Spese condominiali,584.14,0.00,amministrazione_condominio (foglio spese),documento
+2026-05-15,323,1010,Banca c/c,0.00,584.14,amministrazione_condominio (foglio spese),documento
+2026-05-18,183,1410,"Mobili, arredi e attrezzature",11.18,0.00,Fattura Amazon (allestimento),documento
+2026-05-18,183,2200,Debiti verso fornitori,0.00,13.64,Fattura Amazon (allestimento),documento
+2026-05-18,183,1200,IVA a credito (periodo),2.46,0.00,Fattura Amazon (allestimento),documento
+2026-05-18,184,2200,Debiti verso fornitori,13.64,0.00,Pagamento Amazon,dedotto
+2026-05-18,184,1010,Banca c/c,0.00,13.64,Pagamento Amazon,dedotto
+2026-05-19,185,1410,"Mobili, arredi e attrezzature",11.81,0.00,Fattura SA.VI. (allestimento),documento
+2026-05-19,185,2200,Debiti verso fornitori,0.00,11.81,Fattura SA.VI. (allestimento),documento
+2026-05-19,186,2200,Debiti verso fornitori,11.81,0.00,Pagamento SA.VI.,dedotto
+2026-05-19,186,1010,Banca c/c,0.00,11.81,Pagamento SA.VI.,dedotto
+2026-05-19,187,1410,"Mobili, arredi e attrezzature",20.24,0.00,Fattura Amazon (allestimento),documento
+2026-05-19,187,2200,Debiti verso fornitori,0.00,20.24,Fattura Amazon (allestimento),documento
+2026-05-19,188,2200,Debiti verso fornitori,20.24,0.00,Pagamento Amazon,dedotto
+2026-05-19,188,1010,Banca c/c,0.00,20.24,Pagamento Amazon,dedotto
+2026-05-25,191,5040,Commercialista e consulenze,75.00,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-05-25,191,2200,Debiti verso fornitori,0.00,91.50,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-05-25,191,1200,IVA a credito (periodo),16.50,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-05-25,192,2200,Debiti verso fornitori,91.50,0.00,Pagamento Servizi Innovativi (Fido),dedotto
+2026-05-25,192,1010,Banca c/c,0.00,91.50,Pagamento Servizi Innovativi (Fido),dedotto
+2026-05-25,193,5040,Commercialista e consulenze,75.00,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-05-25,193,2200,Debiti verso fornitori,0.00,91.50,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-05-25,193,1200,IVA a credito (periodo),16.50,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-05-25,194,2200,Debiti verso fornitori,91.50,0.00,Pagamento Accounting Hub (Fido),dedotto
+2026-05-25,194,1010,Banca c/c,0.00,91.50,Pagamento Accounting Hub (Fido),dedotto
+2026-05-25,285,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 28/2026 a SOC-RM,documento
+2026-05-25,285,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 28/2026 a SOC-RM,documento
+2026-05-25,285,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 28/2026 a SOC-RM,documento
+2026-05-25,286,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-05-25,286,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-05-25,287,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 29/2026 a SOC-EB,documento
+2026-05-25,287,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 29/2026 a SOC-EB,documento
+2026-05-25,287,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 29/2026 a SOC-EB,documento
+2026-05-25,288,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-05-25,288,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-05-25,289,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 30/2026 a SOC-VG,documento
+2026-05-25,289,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 30/2026 a SOC-VG,documento
+2026-05-25,289,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 30/2026 a SOC-VG,documento
+2026-05-25,290,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-05-25,290,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-05-25,291,1100,Crediti verso clienti,237.90,0.00,Fattura n. 31/2026 a CLI-01,documento
+2026-05-25,291,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 31/2026 a CLI-01,documento
+2026-05-25,291,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 31/2026 a CLI-01,documento
+2026-05-25,292,1010,Banca c/c,237.90,0.00,Incasso da CLI-01,dedotto
+2026-05-25,292,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-01,dedotto
+2026-05-25,293,1100,Crediti verso clienti,237.90,0.00,Fattura n. 32/2026 a CLI-03,documento
+2026-05-25,293,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 32/2026 a CLI-03,documento
+2026-05-25,293,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 32/2026 a CLI-03,documento
+2026-05-25,294,1010,Banca c/c,237.90,0.00,Incasso da CLI-03,dedotto
+2026-05-25,294,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-03,dedotto
+2026-05-25,295,1100,Crediti verso clienti,237.90,0.00,Fattura n. 33/2026 a CLI-04,documento
+2026-05-25,295,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 33/2026 a CLI-04,documento
+2026-05-25,295,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 33/2026 a CLI-04,documento
+2026-05-25,296,1010,Banca c/c,237.90,0.00,Incasso da CLI-04,dedotto
+2026-05-25,296,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-04,dedotto
+2026-05-25,297,1100,Crediti verso clienti,263.91,0.00,Fattura n. 34/2026 a CLI-02,documento
+2026-05-25,297,4000,Ricavi da servizi spazi,0.00,216.32,Fattura n. 34/2026 a CLI-02,documento
+2026-05-25,297,2300,IVA a debito (periodo),0.00,47.59,Fattura n. 34/2026 a CLI-02,documento
+2026-05-25,298,1010,Banca c/c,263.91,0.00,Incasso da CLI-02,dedotto
+2026-05-25,298,1100,Crediti verso clienti,0.00,263.91,Incasso da CLI-02,dedotto
+2026-06-01,195,5030,Internet e software,6.80,0.00,Fattura Google Cloud (software),documento
+2026-06-01,195,2200,Debiti verso fornitori,0.00,8.30,Fattura Google Cloud (software),documento
+2026-06-01,195,1200,IVA a credito (periodo),1.50,0.00,Fattura Google Cloud (software),documento
+2026-06-01,196,2200,Debiti verso fornitori,8.30,0.00,Pagamento Google Cloud,dedotto
+2026-06-01,196,1010,Banca c/c,0.00,8.30,Pagamento Google Cloud,dedotto
+2026-06-01,197,5030,Internet e software,24.95,0.00,Fattura Fastweb (internet),documento
+2026-06-01,197,2200,Debiti verso fornitori,0.00,30.44,Fattura Fastweb (internet),documento
+2026-06-01,197,1200,IVA a credito (periodo),5.49,0.00,Fattura Fastweb (internet),documento
+2026-06-01,198,2200,Debiti verso fornitori,30.44,0.00,Pagamento Fastweb,dedotto
+2026-06-01,198,1010,Banca c/c,0.00,30.44,Pagamento Fastweb,dedotto
+2026-06-03,199,5010,Pulizie,452.00,0.00,Fattura FOR-PUL (pulizie),documento
+2026-06-03,199,2200,Debiti verso fornitori,0.00,452.00,Fattura FOR-PUL (pulizie),documento
+2026-06-03,200,2200,Debiti verso fornitori,452.00,0.00,Pagamento FOR-PUL,dedotto
+2026-06-03,200,1010,Banca c/c,0.00,452.00,Pagamento FOR-PUL,dedotto
+2026-06-03,201,5000,Affitto passivo,2000.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-06-03,201,2200,Debiti verso fornitori,0.00,2440.00,Fattura LA.SER SRL (affitto),documento
+2026-06-03,201,1200,IVA a credito (periodo),440.00,0.00,Fattura LA.SER SRL (affitto),documento
+2026-06-03,202,2200,Debiti verso fornitori,2440.00,0.00,Pagamento LA.SER SRL,dedotto
+2026-06-03,202,1010,Banca c/c,0.00,2440.00,Pagamento LA.SER SRL,dedotto
+2026-06-11,203,5040,Commercialista e consulenze,249.50,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-06-11,203,2200,Debiti verso fornitori,0.00,304.39,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-06-11,203,1200,IVA a credito (periodo),54.89,0.00,Fattura Accounting Hub (Fido) (commercialista),documento
+2026-06-11,204,2200,Debiti verso fornitori,304.39,0.00,Pagamento Accounting Hub (Fido),dedotto
+2026-06-11,204,1010,Banca c/c,0.00,304.39,Pagamento Accounting Hub (Fido),dedotto
+2026-06-11,205,5040,Commercialista e consulenze,249.50,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-06-11,205,2200,Debiti verso fornitori,0.00,304.39,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-06-11,205,1200,IVA a credito (periodo),54.89,0.00,Fattura Servizi Innovativi (Fido) (commercialista),documento
+2026-06-11,206,2200,Debiti verso fornitori,304.39,0.00,Pagamento Servizi Innovativi (Fido),dedotto
+2026-06-11,206,1010,Banca c/c,0.00,304.39,Pagamento Servizi Innovativi (Fido),dedotto
+2026-06-15,209,5050,Manutenzioni,480.00,0.00,Fattura Milano Clima (manutenzione) – reverse charge,documento
+2026-06-15,209,1200,IVA a credito (periodo),105.60,0.00,Fattura Milano Clima (manutenzione) – reverse charge,documento
+2026-06-15,209,2200,Debiti verso fornitori,0.00,480.00,Fattura Milano Clima (manutenzione) – reverse charge,documento
+2026-06-15,209,2300,IVA a debito (periodo),0.00,105.60,Fattura Milano Clima (manutenzione) – reverse charge,documento
+2026-06-15,210,2200,Debiti verso fornitori,480.00,0.00,Pagamento Milano Clima,dedotto
+2026-06-15,210,1010,Banca c/c,0.00,480.00,Pagamento Milano Clima,dedotto
+2026-06-18,207,5020,Energia,139.90,0.00,Fattura Eni gas e luce (energia),documento
+2026-06-18,207,2200,Debiti verso fornitori,0.00,170.68,Fattura Eni gas e luce (energia),documento
+2026-06-18,207,1200,IVA a credito (periodo),30.78,0.00,Fattura Eni gas e luce (energia),documento
+2026-06-18,208,2200,Debiti verso fornitori,170.68,0.00,Pagamento Eni gas e luce,dedotto
+2026-06-18,208,1010,Banca c/c,0.00,170.68,Pagamento Eni gas e luce,dedotto
+2026-06-24,299,1100,Crediti verso clienti,237.90,0.00,Fattura n. 35/2026 a CLI-02,documento
+2026-06-24,299,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 35/2026 a CLI-02,documento
+2026-06-24,299,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 35/2026 a CLI-02,documento
+2026-06-24,300,1010,Banca c/c,237.90,0.00,Incasso da CLI-02,dedotto
+2026-06-24,300,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-02,dedotto
+2026-06-24,301,1100,Crediti verso clienti,237.90,0.00,Fattura n. 36/2026 a CLI-04,documento
+2026-06-24,301,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 36/2026 a CLI-04,documento
+2026-06-24,301,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 36/2026 a CLI-04,documento
+2026-06-24,302,1010,Banca c/c,237.90,0.00,Incasso da CLI-04,dedotto
+2026-06-24,302,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-04,dedotto
+2026-06-24,303,1100,Crediti verso clienti,237.90,0.00,Fattura n. 37/2026 a CLI-03,documento
+2026-06-24,303,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 37/2026 a CLI-03,documento
+2026-06-24,303,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 37/2026 a CLI-03,documento
+2026-06-24,304,1010,Banca c/c,237.90,0.00,Incasso da CLI-03,dedotto
+2026-06-24,304,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-03,dedotto
+2026-06-24,305,1100,Crediti verso clienti,237.90,0.00,Fattura n. 38/2026 a CLI-01,documento
+2026-06-24,305,4000,Ricavi da servizi spazi,0.00,195.00,Fattura n. 38/2026 a CLI-01,documento
+2026-06-24,305,2300,IVA a debito (periodo),0.00,42.90,Fattura n. 38/2026 a CLI-01,documento
+2026-06-24,306,1010,Banca c/c,237.90,0.00,Incasso da CLI-01,dedotto
+2026-06-24,306,1100,Crediti verso clienti,0.00,237.90,Incasso da CLI-01,dedotto
+2026-06-24,307,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 39/2026 a SOC-VG,documento
+2026-06-24,307,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 39/2026 a SOC-VG,documento
+2026-06-24,307,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 39/2026 a SOC-VG,documento
+2026-06-24,308,1010,Banca c/c,1000.00,0.00,Incasso da SOC-VG,dedotto
+2026-06-24,308,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-VG,dedotto
+2026-06-24,309,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 40/2026 a SOC-EB,documento
+2026-06-24,309,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 40/2026 a SOC-EB,documento
+2026-06-24,309,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 40/2026 a SOC-EB,documento
+2026-06-24,310,1010,Banca c/c,1000.00,0.00,Incasso da SOC-EB,dedotto
+2026-06-24,310,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-EB,dedotto
+2026-06-24,311,1100,Crediti verso clienti,1000.00,0.00,Fattura n. 41/2026 a SOC-RM,documento
+2026-06-24,311,4000,Ricavi da servizi spazi,0.00,819.67,Fattura n. 41/2026 a SOC-RM,documento
+2026-06-24,311,2300,IVA a debito (periodo),0.00,180.33,Fattura n. 41/2026 a SOC-RM,documento
+2026-06-24,312,1010,Banca c/c,1000.00,0.00,Incasso da SOC-RM,dedotto
+2026-06-24,312,1100,Crediti verso clienti,0.00,1000.00,Incasso da SOC-RM,dedotto
+2026-06-25,313,1100,Crediti verso clienti,100.00,0.00,Fattura n. 42/2026 a CLI-05,documento
+2026-06-25,313,4000,Ricavi da servizi spazi,0.00,81.97,Fattura n. 42/2026 a CLI-05,documento
+2026-06-25,313,2300,IVA a debito (periodo),0.00,18.03,Fattura n. 42/2026 a CLI-05,documento
+2026-06-25,314,1010,Banca c/c,100.00,0.00,Incasso da CLI-05,dedotto
+2026-06-25,314,1100,Crediti verso clienti,0.00,100.00,Incasso da CLI-05,dedotto
+2026-06-27,315,1100,Crediti verso clienti,78.29,0.00,Fattura n. 43/2026 a CLI-06,documento
+2026-06-27,315,4000,Ricavi da servizi spazi,0.00,64.17,Fattura n. 43/2026 a CLI-06,documento
+2026-06-27,315,2300,IVA a debito (periodo),0.00,14.12,Fattura n. 43/2026 a CLI-06,documento
+2026-06-27,316,1010,Banca c/c,78.29,0.00,Incasso da CLI-06,dedotto
+2026-06-27,316,1100,Crediti verso clienti,0.00,78.29,Incasso da CLI-06,dedotto
+2026-06-30,327,2300,IVA a debito (periodo),2284.90,0.00,Liquidazione IVA 2026T2,documento
+2026-06-30,327,1200,IVA a credito (periodo),0.00,1697.46,Liquidazione IVA 2026T2,documento
+2026-06-30,327,1210,Erario c/IVA (saldo liquidazioni),0.00,587.44,Liquidazione IVA 2026T2,documento
+2026-06-30,329,5100,Ammortamenti,3304.40,0.00,"Ammortamento 2026 (vita utile 6 anni, pro rata mensile)",stima
+2026-06-30,329,1490,Fondo ammortamento,0.00,3304.40,"Ammortamento 2026 (vita utile 6 anni, pro rata mensile)",stima

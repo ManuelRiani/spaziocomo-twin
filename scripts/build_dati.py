@@ -81,7 +81,7 @@ with open(OUT / "ricavi_fatture.csv", "w", newline="") as f:
 # (data, fornitore, categoria, imponibile, iva, non_imponibile, note)
 # non_imponibile: forfettari, bolli, esclusi art.15. RC = reverse charge edile.
 A = [
-    # Ottobre 2025
+    ("@", "2025-10"),  # registro ottobre 2025
     ("2025-10-01", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2025-09-30", "Accounting Hub (Fido)", "commercialista", 249.50, 54.89, 0, ""),
     ("2025-09-30", "Google Cloud", "software", 6.80, 1.50, 0, ""),
@@ -115,7 +115,7 @@ A = [
     ("2025-10-30", "Amazon", "allestimento", 12.64, 2.78, 0, ""),
     ("2025-10-07", "T.N. Costruzioni", "lavori_edili", 10000, 2200, 0, "RC"),
     ("2025-10-21", "T.N. Costruzioni", "lavori_edili", 10000, 2200, 0, "RC"),
-    # Novembre 2025
+    ("@", "2025-11"),  # registro novembre 2025
     ("2025-10-31", "Esselunga", "varie", 36.28, 7.06, 0, "aliquote miste"),
     ("2025-10-31", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2025-11-01", "OBI", "allestimento", 62.95, 13.85, 0, ""),
@@ -132,7 +132,7 @@ A = [
     ("2025-11-18", "Eni gas e luce", "energia", 133.40, 29.35, 0, ""),
     ("2025-11-15", "FOR-P03", "consulenze", 0, 0, 1198.08, "forfettario"),
     ("2025-11-07", "T.N. Costruzioni", "lavori_edili", 15400, 3388, 0, "RC"),
-    # Dicembre 2025
+    ("@", "2025-12"),  # registro dicembre 2025
     ("2025-12-01", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2025-11-30", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2025-12-01", "FOR-P02", "consulenze", 0, 0, 1892, "forfettario"),
@@ -143,20 +143,20 @@ A = [
     ("2025-12-14", "Esselunga", "varie", 47.15, 6.31, 0, "aliquote miste"),
     ("2025-12-12", "Eni gas e luce", "energia", 328.34, 72.23, 0, ""),
     ("2025-12-22", "T.N. Costruzioni", "lavori_edili", 500, 110, 0, "RC"),
-    # Gennaio 2026
+    ("@", "2026-01"),  # registro gennaio 2026
     ("2025-12-31", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2026-01-01", "Fastweb", "internet", 24.95, 5.49, 0, ""),
     ("2026-01-05", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2026-01-07", "FOR-PUL", "pulizie", 0, 0, 302, ""),
     ("2026-01-17", "Eni gas e luce", "energia", 340.27, 74.86, 0, ""),
     ("2025-12-01", "FOR-P01", "consulenze", 1768, 388.96, 120, "ritenuta; registrata a gennaio"),
-    # Febbraio 2026
+    ("@", "2026-02"),  # registro febbraio 2026
     ("2026-01-31", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2026-02-02", "FOR-PUL", "pulizie", 0, 0, 452, ""),
     ("2026-02-02", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2026-02-01", "Fastweb", "internet", 24.95, 5.49, 0, ""),
     ("2026-02-17", "Eni gas e luce", "energia", 537.09, 118.16, 0, ""),
-    # Marzo 2026
+    ("@", "2026-03"),  # registro marzo 2026
     ("2026-03-02", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2026-02-28", "Accounting Hub (Fido)", "commercialista", 249.50, 54.89, 0, ""),
     ("2026-02-28", "Servizi Innovativi (Fido)", "commercialista", 249.50, 54.89, 0, ""),
@@ -165,13 +165,13 @@ A = [
     ("2026-03-03", "FOR-PUL", "pulizie", 0, 0, 452, ""),
     ("2026-03-17", "Eni gas e luce", "energia", 326.58, 71.85, 0, ""),
     ("2026-03-24", "Amazon", "allestimento", 0, 0, 5.60, "fuori campo"),
-    # Aprile 2026
+    ("@", "2026-04"),  # registro aprile 2026
     ("2026-03-31", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2026-04-01", "FOR-PUL", "pulizie", 0, 0, 452, ""),
     ("2026-04-01", "Fastweb", "internet", 24.95, 5.49, 0, ""),
     ("2026-04-01", "LA.SER SRL", "affitto", 2000, 440, 0, ""),
     ("2026-04-18", "Eni gas e luce", "energia", 224.97, 49.49, 0, ""),
-    # Maggio 2026
+    ("@", "2026-05"),  # registro maggio 2026
     ("2026-04-30", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2026-05-03", "FOR-PUL", "pulizie", 0, 0, 402, ""),
     ("2026-05-01", "Fastweb", "internet", 24.95, 5.49, 0, ""),
@@ -182,7 +182,7 @@ A = [
     ("2026-05-15", "Eni gas e luce", "energia", 115.37, 25.38, 0, ""),
     ("2026-05-25", "Servizi Innovativi (Fido)", "commercialista", 75, 16.50, 0, ""),
     ("2026-05-25", "Accounting Hub (Fido)", "commercialista", 75, 16.50, 0, ""),
-    # Giugno 2026
+    ("@", "2026-06"),  # registro giugno 2026
     ("2026-05-31", "Google Cloud", "software", 6.80, 1.50, 0, ""),
     ("2026-06-01", "Fastweb", "internet", 24.95, 5.49, 0, ""),
     ("2026-06-03", "FOR-PUL", "pulizie", 0, 0, 452, ""),
@@ -197,13 +197,18 @@ INVEST = {"allestimento", "lavori_edili", "traslochi"}
 
 with open(OUT / "acquisti_registro_iva.csv", "w", newline="") as f:
     w = csv.writer(f)
-    w.writerow(["data", "fornitore", "categoria", "natura", "imponibile", "iva",
+    w.writerow(["data", "mese_registro", "fornitore", "categoria", "natura", "imponibile", "iva",
                 "non_imponibile", "reverse_charge", "note"])
-    for d, forn, cat, imp, iva, ni, note in A:
+    mese = None
+    for row in A:
+        if row[0] == "@":
+            mese = row[1]
+            continue
+        d, forn, cat, imp, iva, ni, note = row
         natura = "avvio_investimento" if cat in INVEST else "gestione"
         if cat == "consulenze" and d < "2026-01-01" or forn == "FOR-P01":
             natura = "avvio_investimento"
-        w.writerow([d, forn, cat, natura, f"{imp:.2f}", f"{iva:.2f}", f"{ni:.2f}",
+        w.writerow([d, mese, forn, cat, natura, f"{imp:.2f}", f"{iva:.2f}", f"{ni:.2f}",
                     "si" if "RC" in note else "no", note])
 
 # --- Liquidazioni IVA --------------------------------------------------------

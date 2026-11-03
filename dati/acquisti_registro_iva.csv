@@ -1,102 +1,102 @@
-data,fornitore,categoria,natura,imponibile,iva,non_imponibile,reverse_charge,note
-2025-10-01,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2025-09-30,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2025-09-30,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2025-10-02,Bricoman,allestimento,avvio_investimento,1739.63,382.71,0.00,no,
-2025-10-03,Action,allestimento,avvio_investimento,28.48,6.27,0.00,no,
-2025-10-07,Fisiostore,allestimento,avvio_investimento,500.00,110.00,0.00,no,attrezzatura sanitaria
-2025-10-07,Gruppo Veneziano,allestimento,avvio_investimento,15.50,3.41,0.00,no,
-2025-10-08,tenulodi,allestimento,avvio_investimento,50.59,11.13,0.00,no,
-2025-10-10,farma services,allestimento,avvio_investimento,23.27,5.12,0.00,no,
-2025-10-11,Bricoman,allestimento,avvio_investimento,65.25,14.36,0.00,no,
-2025-10-14,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2025-09-30,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2025-10-07,Amazon,allestimento,avvio_investimento,25.73,5.66,0.00,no,
-2025-10-08,Amazon,allestimento,avvio_investimento,7.00,1.54,0.00,no,
-2025-10-14,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2025-10-17,Bricoman,allestimento,avvio_investimento,196.07,43.13,0.00,no,nota di credito? (NR)
-2025-10-18,FOR-P04,consulenze,avvio_investimento,45.00,9.90,0.00,no,
-2025-10-18,AD Arte Digitale,allestimento,avvio_investimento,16.27,3.58,0.00,no,
-2025-10-20,Extra Traslochi,traslochi,avvio_investimento,200.00,44.00,0.00,no,
-2025-10-20,Beper,allestimento,avvio_investimento,57.27,12.60,0.00,no,
-2025-10-23,tenulodi,allestimento,avvio_investimento,52.23,11.49,0.00,no,
-2025-10-23,Brico io,allestimento,avvio_investimento,43.44,9.56,0.00,no,
-2025-10-23,Action,allestimento,avvio_investimento,20.43,4.49,0.00,no,
-2025-10-24,Ikea,allestimento,avvio_investimento,505.64,111.24,0.00,no,
-2025-10-24,Brico io,allestimento,avvio_investimento,13.85,3.05,0.00,no,
-2025-10-25,Leroy Merlin,allestimento,avvio_investimento,75.34,16.57,0.00,no,
-2025-10-28,Brico io,allestimento,avvio_investimento,38.36,8.44,0.00,no,
-2025-10-30,Amazon,allestimento,avvio_investimento,11.32,2.49,0.00,no,
-2025-10-30,Agrifer,allestimento,avvio_investimento,40.91,9.00,0.00,no,
-2025-10-30,Ikea,allestimento,avvio_investimento,73.65,16.20,0.00,no,
-2025-10-30,Amazon,allestimento,avvio_investimento,12.64,2.78,0.00,no,
-2025-10-07,T.N. Costruzioni,lavori_edili,avvio_investimento,10000.00,2200.00,0.00,si,RC
-2025-10-21,T.N. Costruzioni,lavori_edili,avvio_investimento,10000.00,2200.00,0.00,si,RC
-2025-10-31,Esselunga,varie,gestione,36.28,7.06,0.00,no,aliquote miste
-2025-10-31,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2025-11-01,OBI,allestimento,avvio_investimento,62.95,13.85,0.00,no,
-2025-11-02,Esselunga,varie,gestione,68.26,12.59,0.00,no,aliquote miste
-2025-10-31,Ciesseci,varie,gestione,26.93,5.92,0.00,no,
-2025-11-02,Esselunga,varie,gestione,-1.27,-0.28,0.00,no,nota credito
-2025-11-03,Extra Traslochi,traslochi,avvio_investimento,490.00,107.80,0.00,no,
-2025-11-03,LA.SER SRL,affitto,gestione,2000.00,440.00,184.00,no,184 escluso art.15 (registro/bolli?)
-2025-11-05,FOR-PUL,pulizie,gestione,0.00,0.00,302.00,no,
-2025-11-07,Action,allestimento,avvio_investimento,10.02,2.20,0.00,no,
-2025-11-10,Tipografia Terreni,varie,gestione,50.00,11.00,0.00,no,
-2025-11-06,FOR-A01,allestimento,avvio_investimento,16.17,3.56,0.00,no,
-2025-11-20,Amazon,allestimento,avvio_investimento,24.09,5.30,0.00,no,
-2025-11-18,Eni gas e luce,energia,gestione,133.40,29.35,0.00,no,
-2025-11-15,FOR-P03,consulenze,avvio_investimento,0.00,0.00,1198.08,no,forfettario
-2025-11-07,T.N. Costruzioni,lavori_edili,avvio_investimento,15400.00,3388.00,0.00,si,RC
-2025-12-01,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2025-11-30,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2025-12-01,FOR-P02,consulenze,avvio_investimento,0.00,0.00,1892.00,no,forfettario
-2025-12-03,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
-2025-12-01,Fastweb,internet,gestione,44.91,9.88,0.00,no,
-2025-12-12,Esselunga,varie,gestione,60.62,7.76,0.00,no,aliquote miste
-2025-12-12,Action,allestimento,avvio_investimento,8.51,1.87,0.00,no,
-2025-12-14,Esselunga,varie,gestione,47.15,6.31,0.00,no,aliquote miste
-2025-12-12,Eni gas e luce,energia,gestione,328.34,72.23,0.00,no,
-2025-12-22,T.N. Costruzioni,lavori_edili,avvio_investimento,500.00,110.00,0.00,si,RC
-2025-12-31,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-01-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-01-05,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-01-07,FOR-PUL,pulizie,gestione,0.00,0.00,302.00,no,
-2026-01-17,Eni gas e luce,energia,gestione,340.27,74.86,0.00,no,
-2025-12-01,FOR-P01,consulenze,avvio_investimento,1768.00,388.96,120.00,no,ritenuta; registrata a gennaio
-2026-01-31,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-02-02,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
-2026-02-02,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-02-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-02-17,Eni gas e luce,energia,gestione,537.09,118.16,0.00,no,
-2026-03-02,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-02-28,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2026-02-28,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2026-02-28,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-03-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-03-03,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
-2026-03-17,Eni gas e luce,energia,gestione,326.58,71.85,0.00,no,
-2026-03-24,Amazon,allestimento,avvio_investimento,0.00,0.00,5.60,no,fuori campo
-2026-03-31,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-04-01,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
-2026-04-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-04-01,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-04-18,Eni gas e luce,energia,gestione,224.97,49.49,0.00,no,
-2026-04-30,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-05-03,FOR-PUL,pulizie,gestione,0.00,0.00,402.00,no,
-2026-05-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-05-04,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-05-18,Amazon,allestimento,avvio_investimento,11.18,2.46,0.00,no,
-2026-05-19,SA.VI.,allestimento,avvio_investimento,9.68,2.13,0.00,no,IVA indetraibile
-2026-05-19,Amazon,allestimento,avvio_investimento,16.59,3.65,0.00,no,IVA indetraibile
-2026-05-15,Eni gas e luce,energia,gestione,115.37,25.38,0.00,no,
-2026-05-25,Servizi Innovativi (Fido),commercialista,gestione,75.00,16.50,0.00,no,
-2026-05-25,Accounting Hub (Fido),commercialista,gestione,75.00,16.50,0.00,no,
-2026-05-31,Google Cloud,software,gestione,6.80,1.50,0.00,no,
-2026-06-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
-2026-06-03,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
-2026-06-03,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
-2026-06-11,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2026-06-11,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
-2026-06-18,Eni gas e luce,energia,gestione,139.90,30.78,0.00,no,
-2026-06-15,Milano Clima,manutenzione,gestione,480.00,105.60,0.00,si,RC
+data,mese_registro,fornitore,categoria,natura,imponibile,iva,non_imponibile,reverse_charge,note
+2025-10-01,2025-10,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2025-09-30,2025-10,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2025-09-30,2025-10,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2025-10-02,2025-10,Bricoman,allestimento,avvio_investimento,1739.63,382.71,0.00,no,
+2025-10-03,2025-10,Action,allestimento,avvio_investimento,28.48,6.27,0.00,no,
+2025-10-07,2025-10,Fisiostore,allestimento,avvio_investimento,500.00,110.00,0.00,no,attrezzatura sanitaria
+2025-10-07,2025-10,Gruppo Veneziano,allestimento,avvio_investimento,15.50,3.41,0.00,no,
+2025-10-08,2025-10,tenulodi,allestimento,avvio_investimento,50.59,11.13,0.00,no,
+2025-10-10,2025-10,farma services,allestimento,avvio_investimento,23.27,5.12,0.00,no,
+2025-10-11,2025-10,Bricoman,allestimento,avvio_investimento,65.25,14.36,0.00,no,
+2025-10-14,2025-10,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2025-09-30,2025-10,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2025-10-07,2025-10,Amazon,allestimento,avvio_investimento,25.73,5.66,0.00,no,
+2025-10-08,2025-10,Amazon,allestimento,avvio_investimento,7.00,1.54,0.00,no,
+2025-10-14,2025-10,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2025-10-17,2025-10,Bricoman,allestimento,avvio_investimento,196.07,43.13,0.00,no,nota di credito? (NR)
+2025-10-18,2025-10,FOR-P04,consulenze,avvio_investimento,45.00,9.90,0.00,no,
+2025-10-18,2025-10,AD Arte Digitale,allestimento,avvio_investimento,16.27,3.58,0.00,no,
+2025-10-20,2025-10,Extra Traslochi,traslochi,avvio_investimento,200.00,44.00,0.00,no,
+2025-10-20,2025-10,Beper,allestimento,avvio_investimento,57.27,12.60,0.00,no,
+2025-10-23,2025-10,tenulodi,allestimento,avvio_investimento,52.23,11.49,0.00,no,
+2025-10-23,2025-10,Brico io,allestimento,avvio_investimento,43.44,9.56,0.00,no,
+2025-10-23,2025-10,Action,allestimento,avvio_investimento,20.43,4.49,0.00,no,
+2025-10-24,2025-10,Ikea,allestimento,avvio_investimento,505.64,111.24,0.00,no,
+2025-10-24,2025-10,Brico io,allestimento,avvio_investimento,13.85,3.05,0.00,no,
+2025-10-25,2025-10,Leroy Merlin,allestimento,avvio_investimento,75.34,16.57,0.00,no,
+2025-10-28,2025-10,Brico io,allestimento,avvio_investimento,38.36,8.44,0.00,no,
+2025-10-30,2025-10,Amazon,allestimento,avvio_investimento,11.32,2.49,0.00,no,
+2025-10-30,2025-10,Agrifer,allestimento,avvio_investimento,40.91,9.00,0.00,no,
+2025-10-30,2025-10,Ikea,allestimento,avvio_investimento,73.65,16.20,0.00,no,
+2025-10-30,2025-10,Amazon,allestimento,avvio_investimento,12.64,2.78,0.00,no,
+2025-10-07,2025-10,T.N. Costruzioni,lavori_edili,avvio_investimento,10000.00,2200.00,0.00,si,RC
+2025-10-21,2025-10,T.N. Costruzioni,lavori_edili,avvio_investimento,10000.00,2200.00,0.00,si,RC
+2025-10-31,2025-11,Esselunga,varie,gestione,36.28,7.06,0.00,no,aliquote miste
+2025-10-31,2025-11,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2025-11-01,2025-11,OBI,allestimento,avvio_investimento,62.95,13.85,0.00,no,
+2025-11-02,2025-11,Esselunga,varie,gestione,68.26,12.59,0.00,no,aliquote miste
+2025-10-31,2025-11,Ciesseci,varie,gestione,26.93,5.92,0.00,no,
+2025-11-02,2025-11,Esselunga,varie,gestione,-1.27,-0.28,0.00,no,nota credito
+2025-11-03,2025-11,Extra Traslochi,traslochi,avvio_investimento,490.00,107.80,0.00,no,
+2025-11-03,2025-11,LA.SER SRL,affitto,gestione,2000.00,440.00,184.00,no,184 escluso art.15 (registro/bolli?)
+2025-11-05,2025-11,FOR-PUL,pulizie,gestione,0.00,0.00,302.00,no,
+2025-11-07,2025-11,Action,allestimento,avvio_investimento,10.02,2.20,0.00,no,
+2025-11-10,2025-11,Tipografia Terreni,varie,gestione,50.00,11.00,0.00,no,
+2025-11-06,2025-11,FOR-A01,allestimento,avvio_investimento,16.17,3.56,0.00,no,
+2025-11-20,2025-11,Amazon,allestimento,avvio_investimento,24.09,5.30,0.00,no,
+2025-11-18,2025-11,Eni gas e luce,energia,gestione,133.40,29.35,0.00,no,
+2025-11-15,2025-11,FOR-P03,consulenze,avvio_investimento,0.00,0.00,1198.08,no,forfettario
+2025-11-07,2025-11,T.N. Costruzioni,lavori_edili,avvio_investimento,15400.00,3388.00,0.00,si,RC
+2025-12-01,2025-12,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2025-11-30,2025-12,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2025-12-01,2025-12,FOR-P02,consulenze,avvio_investimento,0.00,0.00,1892.00,no,forfettario
+2025-12-03,2025-12,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
+2025-12-01,2025-12,Fastweb,internet,gestione,44.91,9.88,0.00,no,
+2025-12-12,2025-12,Esselunga,varie,gestione,60.62,7.76,0.00,no,aliquote miste
+2025-12-12,2025-12,Action,allestimento,avvio_investimento,8.51,1.87,0.00,no,
+2025-12-14,2025-12,Esselunga,varie,gestione,47.15,6.31,0.00,no,aliquote miste
+2025-12-12,2025-12,Eni gas e luce,energia,gestione,328.34,72.23,0.00,no,
+2025-12-22,2025-12,T.N. Costruzioni,lavori_edili,avvio_investimento,500.00,110.00,0.00,si,RC
+2025-12-31,2026-01,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-01-01,2026-01,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-01-05,2026-01,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-01-07,2026-01,FOR-PUL,pulizie,gestione,0.00,0.00,302.00,no,
+2026-01-17,2026-01,Eni gas e luce,energia,gestione,340.27,74.86,0.00,no,
+2025-12-01,2026-01,FOR-P01,consulenze,avvio_investimento,1768.00,388.96,120.00,no,ritenuta; registrata a gennaio
+2026-01-31,2026-02,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-02-02,2026-02,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
+2026-02-02,2026-02,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-02-01,2026-02,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-02-17,2026-02,Eni gas e luce,energia,gestione,537.09,118.16,0.00,no,
+2026-03-02,2026-03,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-02-28,2026-03,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2026-02-28,2026-03,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2026-02-28,2026-03,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-03-01,2026-03,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-03-03,2026-03,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
+2026-03-17,2026-03,Eni gas e luce,energia,gestione,326.58,71.85,0.00,no,
+2026-03-24,2026-03,Amazon,allestimento,avvio_investimento,0.00,0.00,5.60,no,fuori campo
+2026-03-31,2026-04,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-04-01,2026-04,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
+2026-04-01,2026-04,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-04-01,2026-04,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-04-18,2026-04,Eni gas e luce,energia,gestione,224.97,49.49,0.00,no,
+2026-04-30,2026-05,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-05-03,2026-05,FOR-PUL,pulizie,gestione,0.00,0.00,402.00,no,
+2026-05-01,2026-05,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-05-04,2026-05,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-05-18,2026-05,Amazon,allestimento,avvio_investimento,11.18,2.46,0.00,no,
+2026-05-19,2026-05,SA.VI.,allestimento,avvio_investimento,9.68,2.13,0.00,no,IVA indetraibile
+2026-05-19,2026-05,Amazon,allestimento,avvio_investimento,16.59,3.65,0.00,no,IVA indetraibile
+2026-05-15,2026-05,Eni gas e luce,energia,gestione,115.37,25.38,0.00,no,
+2026-05-25,2026-05,Servizi Innovativi (Fido),commercialista,gestione,75.00,16.50,0.00,no,
+2026-05-25,2026-05,Accounting Hub (Fido),commercialista,gestione,75.00,16.50,0.00,no,
+2026-05-31,2026-06,Google Cloud,software,gestione,6.80,1.50,0.00,no,
+2026-06-01,2026-06,Fastweb,internet,gestione,24.95,5.49,0.00,no,
+2026-06-03,2026-06,FOR-PUL,pulizie,gestione,0.00,0.00,452.00,no,
+2026-06-03,2026-06,LA.SER SRL,affitto,gestione,2000.00,440.00,0.00,no,
+2026-06-11,2026-06,Accounting Hub (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2026-06-11,2026-06,Servizi Innovativi (Fido),commercialista,gestione,249.50,54.89,0.00,no,
+2026-06-18,2026-06,Eni gas e luce,energia,gestione,139.90,30.78,0.00,no,
+2026-06-15,2026-06,Milano Clima,manutenzione,gestione,480.00,105.60,0.00,si,RC
