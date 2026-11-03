@@ -1,5 +1,7 @@
 # Fonti (Google Drive)
 
+Versione leggibile. L'elenco usato per il controllo automatico dei percorsi (ID, titolo e cartella attesi) è [`fonti_drive.csv`](fonti_drive.csv): le due liste vanno tenute allineate.
+
 Letti il 2026-11-03. I link funzionano solo per chi ha accesso alle cartelle condivise: nel repo non c'è nessun dato in più rispetto a quanto già trascritto.
 
 ## Cartelle condivise da spaziocomosrl@gmail.com (fonte primaria)

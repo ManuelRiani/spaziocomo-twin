@@ -2,8 +2,8 @@
 
 Fonti: registri IVA vendite/acquisti Q4-2025, Q1-2026, Q2-2026; liquidazioni IVA;
 LIPE Q2-2026; dichiarazione IVA 2026 (anno 2025); foglio "SPESE MENSILI STUDIO.xlsx";
-verbali di finanziamento soci. I codici persona sono in privato/anagrafica_codici.csv
-(escluso da git).
+verbali di finanziamento soci. La corrispondenza codici -> nomi sta solo nel Google Sheet
+"Codici anagrafica - gemello SpazioComo" (vedi fonti.md), mai nel repo.
 """
 import csv
 from pathlib import Path

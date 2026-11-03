@@ -11,13 +11,14 @@ Prima di rispondere alla prima richiesta:
 1. Leggi [`STATO.md`](STATO.md): copertura dei dati, ultimo aggiornamento, documenti attesi.
 2. Leggi [`PUNTI_APERTI.md`](PUNTI_APERTI.md): domande in sospeso.
 3. Se la richiesta tocca dati o numeri, esegui `python3 scripts/verifica.py` e `python3 scripts/partita_doppia.py`: confermano che il repo è coerente. Usano solo la libreria standard di Python.
-4. Se la richiesta è "aggiorna", "ci sono novità", "riprendiamo" o simili, controlla se nel Drive ci sono documenti nuovi (vedi sotto) e segui la **procedura di aggiornamento**.
+4. Se la sessione ha il connettore Google Drive, esegui il **controllo dei percorsi Drive** (vedi sotto).
+5. Se la richiesta è "aggiorna", "ci sono novità", "riprendiamo" o simili, controlla se nel Drive ci sono documenti nuovi e segui la **procedura di aggiornamento**.
 
 ## Dove stanno le fonti
 
 La **fonte di verità** sono i documenti nel Google Drive delle socie. Il repo ne è una trascrizione verificata: se un numero qui contraddice un registro IVA, vince il registro.
 
-- Link a ogni cartella e file, con il dato che alimenta: [`fonti.md`](fonti.md).
+- Link a ogni cartella e file, con il dato che alimenta: [`fonti.md`](fonti.md) per chi legge, [`fonti_drive.csv`](fonti_drive.csv) per i controlli (ID, titolo atteso, cartella padre attesa).
 - Accesso: tramite il **connettore Google Drive**. Se non è disponibile nella sessione, dillo all'utente e chiedi di attivarlo; senza connettore si possono fare solo analisi sui dati già nel repo.
 - Cartelle da controllare per i documenti nuovi (ID Drive):
 
@@ -29,13 +30,28 @@ La **fonte di verità** sono i documenti nel Google Drive delle socie. Il repo n
 | Documenti - IVA / 2026 | `13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg` |
 
   Ricerca dei file nuovi: `search_files` con `parentId = '<ID>' and modifiedTime > '<data ultimo aggiornamento in STATO.md>'`, per ciascuna cartella (comprese eventuali nuove sottocartelle, per esempio un anno nuovo). Il foglio "SPESE MENSILI STUDIO.xlsx" viene **modificato** e non sostituito: controllane `modifiedTime`.
-- Tabella codici → nomi: Google Sheet "Codici anagrafica - gemello SpazioComo" in "Documenti - IVA" (link in `fonti.md`).
+- Tabella codici → nomi: Google Sheet "Codici anagrafica - gemello SpazioComo" in "Documenti - IVA" (link in `fonti.md`). Si **legge** dal Drive quando serve; non se ne fa mai una copia nel repo, neanche in cartelle ignorate da git.
+
+### Controllo dei percorsi Drive (obbligatorio)
+
+Gli ID dei file Drive restano validi anche se un file viene rinominato o spostato, ma titoli e cartelle scritti nel repo diventano sbagliati. A ogni inizio sessione con il connettore Drive, e comunque prima di ogni aggiornamento dei dati:
+
+1. Per ogni riga di `fonti_drive.csv`, leggi i metadati del file con `get_file_metadata` (con `excludeContentSnippets: true`) e confronta `title` e `parentId` con `titolo` e `parent_id`.
+2. **Rinominato o spostato**: aggiorna `fonti_drive.csv`, la riga corrispondente di `fonti.md`, la tabella delle cartelle qui sotto (se è una cartella) e ogni altro riferimento nel repo (`grep -r` sul vecchio titolo). Commit con messaggio `Fonti Drive: <vecchio> → <nuovo>`.
+3. **Non trovato o nel cestino**: cerca per titolo con `search_files`. Se lo trovi con un altro ID, aggiorna come sopra; se non lo trovi, **non** cancellare il riferimento: segnalalo all'utente e aggiungilo a `PUNTI_APERTI.md`.
+4. **Nuova cartella** (per esempio `Documenti - IVA / 2027`): aggiungila a `fonti_drive.csv`, `fonti.md` e alla tabella qui sotto.
+5. Riporta all'utente in una riga cosa è cambiato, oppure che i percorsi sono invariati.
 
 ## Regole
 
 - Ogni cifra nuova deve citare il documento di origine (aggiungilo a `fonti.md` se è nuovo).
 - **Fatti, deduzioni e stime vanno sempre distinti.** Un fatto è scritto in un documento. Una deduzione (interpretazione di un andamento, attribuzione di una categoria, causa probabile) va marcata `**[dedotto]**` con il ragionamento. Una stima numerica va marcata `**stima**` con l'ipotesi usata. Una deduzione resta tale finché non è confermata da un documento o dalle socie; quando viene confermata si toglie il marcatore e si cita la conferma. Vale anche nelle risposte in chat.
-- **Privacy**: mai nomi di clienti terzi o fornitori persona fisica nel repo; usa i codici (`CLI-xx`, `FOR-xx`). Un soggetto nuovo riceve il primo codice libero e va aggiunto **prima** al Google Sheet dei codici. Prima di ogni commit verifica che nessun nome sia finito nei file. Non committare nulla da `privato/`.
+- **Privacy (regola assoluta)**: nel repo, **compresa la storia dei commit**, non deve mai esserci un'informazione personale non anonimizzata, salvo quelle delle tre socie.
+  - Vietati: nomi e cognomi di persone diverse dalle socie (clienti, fornitori, professionisti, amministratori di altre società, parenti), anche dentro la ragione sociale di una ditta o società (per esempio una SRL o una SAS col nome del titolare), codici fiscali, indirizzi, telefoni, email, IBAN, legami di parentela con persone identificabili.
+  - Le persone si indicano solo con un codice: `CLI-xx` clienti, `FOR-Pxx` professionisti, `FOR-PUL` pulizie, `FOR-Axx` altri fornitori con nome personale. Un soggetto nuovo riceve il primo codice libero e va aggiunto **prima** al Google Sheet dei codici.
+  - La tabella di conversione codici → nomi **non** va mai nel repo, né come file né in cartelle ignorate (`privato/` non deve esistere nella cartella del repo).
+  - Le società senza nome personale nella ragione sociale (es. LA.SER S.r.l., Eni, Fastweb) si possono nominare.
+  - Prima di ogni commit: controllo privacy (passo 8 della procedura). Se un dato personale è finito in un commit già pubblicato, va rimosso anche dalla storia (riscrittura e push forzato), avvisando l'utente.
 - Distingui sempre **imponibile** (al netto IVA, dai registri) e **lordo** (IVA inclusa, dal foglio spese).
 - Nelle vendite, le righe di reverse charge (T.N. Costruzioni, Milano Clima) **non sono ricavi**: sono autofatture. Vanno negli acquisti con `RC` nelle note.
 - Su temi fiscali e legali dai il quadro e le domande da porre al commercialista (Fido / Accounting Hub). Non presentare conclusioni come parere professionale.
@@ -46,7 +62,7 @@ La **fonte di verità** sono i documenti nel Google Drive delle socie. Il repo n
 
 Ogni volta che si chiede di aggiornare i dati, esegui **tutti** questi passi, nell'ordine:
 
-1. **Cerca i documenti nuovi** nelle cartelle Drive (vedi sopra) dalla data in `STATO.md`. Elencali all'utente prima di trascriverli.
+1. Esegui il **controllo dei percorsi Drive**, poi **cerca i documenti nuovi** nelle cartelle Drive (vedi sopra) dalla data in `STATO.md`. Elencali all'utente prima di trascriverli.
 2. **Trascrivi** i nuovi documenti in `scripts/build_dati.py`:
    - ricavi: lista `F` (data, numero, cliente, imponibile, iva), una riga per fattura del registro vendite, esclusi i reverse charge;
    - acquisti: lista `A`, aprendo ogni mese di registro con il marcatore `("@", "AAAA-MM")`; categoria tra quelle già usate (la scelta della categoria è **[dedotto]**);
@@ -56,7 +72,7 @@ Ogni volta che si chiede di aggiornare i dati, esegui **tutti** questi passi, ne
 5. **`python3 scripts/partita_doppia.py`**: rigenera la partita doppia di **ogni** anno in `contabilita/<anno>/`. Va sempre rieseguita, anche se l'aggiornamento riguarda un solo anno: i saldi patrimoniali passano da un anno all'altro.
 6. Se un controllo fallisce (lo script esce con codice 1), **non committare**: trova la causa e correggi i dati.
 7. Aggiorna `STATO.md`, le analisi interessate e `PUNTI_APERTI.md` (chiudi le domande risolte, aggiungi le nuove).
-8. Controllo privacy: leggi la colonna `nome` del Google Sheet dei codici e verifica con `grep -ri` che nessun nome di `CLI-` o `FOR-` compaia nei file del repo. Poi commit con un messaggio che dica quali documenti sono stati trascritti, e push.
+8. Controllo privacy: leggi la colonna `nome` del Google Sheet dei codici e verifica con `grep -ri` che nessun nome di `CLI-` o `FOR-` compaia nei file del repo. Controlla anche a vista i nomi di fornitori e controparti nuovi trascritti in `build_dati.py`. Poi commit con un messaggio che dica quali documenti sono stati trascritti, e push.
 
 Nella partita doppia ogni movimento ha un campo `evidenza` (`documento`, `dedotto`, `stima`, `aggregato`). Quando arrivano documenti che confermano un movimento dedotto (per esempio gli estratti conto per incassi, pagamenti e versamenti dei soci), sostituisci la scrittura dedotta con quella documentata in `scripts/partita_doppia.py`.
 

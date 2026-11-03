@@ -22,11 +22,13 @@ Modello in Markdown + CSV di **SpazioComo S.r.l.** (Como, via Pasquale Paoli 3):
 | [PUNTI_APERTI.md](PUNTI_APERTI.md) | domande e verifiche in sospeso |
 | [CLAUDE.md](CLAUDE.md) | istruzioni operative per le sessioni di Claude |
 | [fonti.md](fonti.md) | documenti del Drive da cui viene ogni dato |
+| [fonti_drive.csv](fonti_drive.csv) | ID, titolo e cartella attesi di ogni fonte Drive, per il controllo dei percorsi |
 
 ## Privacy
 
 - Repo **privato**. Accesso: Manuel Riani + le tre socie.
-- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza è il Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella Drive "Documenti - IVA" (link in [fonti.md](fonti.md)); la copia locale in `privato/` è esclusa da git.
+- I clienti terzi e i fornitori persona fisica compaiono solo con codici (`CLI-xx`, `FOR-xx`). La tabella di corrispondenza esiste **solo** come Google Sheet "Codici anagrafica - gemello SpazioComo" nella cartella Drive "Documenti - IVA" (link in [fonti.md](fonti.md)); non viene mai copiata nel repo.
+- Nessun'altra informazione personale non anonimizzata, a parte quelle delle socie, entra nel repo (regola completa in [CLAUDE.md](CLAUDE.md)).
 - Le socie compaiono con i codici `SOC-VG`, `SOC-EB`, `SOC-RM` nei dati e per nome nei documenti di governance.
 
 ## Aggiornare i dati

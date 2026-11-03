@@ -1,0 +1,24 @@
+id,tipo,titolo,parent_id,usato_per
+1lAB2oDpwI6dln9rCWZNQL2jwz1RUDaCE,cartella,Spese studio,,cartella spese (fonte primaria)
+1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,cartella,Documenti - IVA,,cartella IVA (fonte primaria)
+1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,cartella,2025,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,documenti IVA 2025
+13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,cartella,2026,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,documenti IVA 2026
+1g1nvYCUQnbIhOzvDHa109JTaauWS5DSPLm6xTCHptds,file,Codici anagrafica - gemello SpazioComo,1ZeQf_RrF7FVmkGD93jwoFWG86NsNffJ7,tabella codici -> nomi (mai copiarla nel repo)
+15TwIRVEJ6SngBkBatwnuCvLELxofgaBA,file,SPESE MENSILI STUDIO.xlsx,1lAB2oDpwI6dln9rCWZNQL2jwz1RUDaCE,dati/spese_cassa_mensili.csv
+1gBm9TkCmTDPUV3TYg3D4tm_o2Xyu9C7s,file,REGISTRI IVA VENDITE IV TRIM.pdf,1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,dati/ricavi_fatture.csv
+1tIl0UinP8gBB7xX1kOIgFRmH2TakE_aq,file,REGISTRI IVA ACQUISTI IV TRIM.pdf,1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,dati/acquisti_registro_iva.csv
+1e4XYU6IUsAX3J0DuhbiQxVwsPWtm7k6Y,file,DICHIARAZIONE IVA 2026.pdf,1X4LpMhzZrYslkIXgzYoE7gGtp_AYAuTK,dati/liquidazioni_iva.csv; aggregato acquisti Q3 2025
+1RYNdYJWjnt59ERulBcwycxwaDTl2qSG1,file,REGISTRO IVA I TRIM. VENDITE.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,dati/ricavi_fatture.csv
+1DjxXScU5iEt7ECYlZC8yjwIULCybao-Q,file,REGISTRO IVA I TRIM. ACQUISTI.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,dati/acquisti_registro_iva.csv
+19HCZiAQW-TS--tetU_5KXR-O2Un20Kel,file,LIQUIDAZIONE IVA PRIMO TRIMESTRE.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,dati/liquidazioni_iva.csv; scripts/verifica.py
+1Ndz_7HRiQaKsLrNt2Tk97rYLiUnxc46N,file,REGISTRI IVA SECONDO TRIMESTRE.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,dati/ricavi_fatture.csv; dati/acquisti_registro_iva.csv
+12vjbtswkgBwxQU2KpyN2XLs80aNqyzm9,file,LIQUIDAZIONE IVA SECONDO TRIMESTRE.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,dati/liquidazioni_iva.csv
+1_9sg-982oRmvaMVy0I4isWMGF2-Be5Qs,file,Lipe II Trimestre.pdf,13rggdDLJky40yrcGJYhD4Hb7eYJCUAvg,controllo totali T2 2026
+1NzvuFAr7CAsWCzTSdNEKWA7QVBsO-684,file,VISURA DEL 09.09.2025 (1).pdf,1f0N39chFubpkwp2aH4MSBrbrVaaXcO3r,societa/anagrafica.md
+1npaGLLrF2jCAuNLx_AbRRji2N80SDrOa,file,Atto costitutivo Spazio Como S.r.l.pdf,1f0N39chFubpkwp2aH4MSBrbrVaaXcO3r,non ancora trascritto
+12KNhlF8sgmU9GVjYhuieRlgqGB6w0HXH,file,Statuto Spazio Como srl.doc,1f0N39chFubpkwp2aH4MSBrbrVaaXcO3r,non ancora trascritto
+1sK12s9tVoo3U4wsK7yOqBcfWRJCRisLerV7H0WdxkqA,file,CONTRATTO LOCAZIONE COMO VIA PAOLI 3 (1),0APqWB_MY0EXEUk9PVA,spazi/immobile.md
+1d-nArK_ZUWJxvqQmZRxwIZl7I2qA_R6U,cartella,(verbali finanziamento soci),,finanza/finanziamenti-soci.md
+1UyZ6d8Xz83r4BNDVvhnk_P5Nx1n2ggRw,file,LIBRO ASSEMBLEE SpazioComo s.r.l..docx,1-w_WtFBPCHmfudWtaLIUgG9jtWgpK7_r,solo frontespizio
+18UPJnvLz8Vz_XDi8pVNHW4F77wdPxvV7,file,tari SpazioComo .pdf,1qgCrWL129xMEKR2akJxv87iIliWP5fOw,non ancora trascritto
+1sa20dVNLOfiYyTG8lc6ExiR7PTC10T4C,file,LIPE III TRIMESTRE SPAZIOCOMO SRL.pdf,1cUt62AoHGoc3aXBh88Ssssrkjk8AL7-r,non ancora trascritto
